@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+.div_principal{
+    border:2px solid black;
+
+    background-color: rgba(165, 83, 68, 0.712);
+
+    padding: 5px;
+}

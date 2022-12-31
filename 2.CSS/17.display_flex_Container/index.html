@@ -1,0 +1,226 @@
+<!--
+  display flex ou Flexbox
+
+  Container
+ 
+  Quando estou trabalhando com display flex eu tenho um container e dentro tenho os items.
+
+  Para movimentar esses items, eu preciso deixar o pai com o display flex. Assim, eu consigo mexer nos filhos direto dele.
+
+  Eu sempre vou usar o display:flex; no pai.
+
+  Se esses items tiverem filhos dentro deles, não serão afetados.
+
+  Só serão afetados os filhos diretos.
+
+
+  
+As propriedades são:
+
+flex-direction             Direção de row ou column
+flex-wrap                  Quebra de linha
+flex-flow                  Shorthand pras duas de cima (flex-direction flex-wrap )
+justify-content            Alinhamento dos items no eixo x (alinhamento horizontal)
+align-content              Alinhamento da linha dos items no eixo y (alinhamento vertical)
+align-items                Alinhamento dos items na linha ou coluna que eles estão
+
+
+
+Se tiver com flex-direction:row; o eixo principal é um.
+Se tiver com flex-direction:column; o eixo principal é outro
+
+
+É como se eu tivesse girado o eixo.
+
+
+
+
+Vamos praticar:
+
+-Crie uma <div> que vai ser seu container e dê uma class pra ela.
+-Dentro desse container, crie 3 <div> e coloque um número dentro de cada uma.
+-Dê uma class igual para todos os items ('item')
+-Dê uma outra class diferente para cada item (para eu fazer a formataçao individual de cada item)
+
+-Na <div> container, coloque as formatações css:
+  border: 2px solid black;
+  width: 340px;
+  height: 280px;
+
+-Nas <div> items, formate as 3 juntas usando a class igual em todas elas:
+  border: 1px solid black;
+  height: 60px;
+  width: 60px;
+
+-Coloque uma cor diferente em cada <div> item
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  flex-direction:;
+  Diz a direção que os items vão ficar.
+
+  - row                          Items um do lado do outro (em direção de linha)    Esse é o padrão
+  - row-reverse                  Items um do lado do outro (em direção de linha)    ao contrário
+
+  - column                       Items um em baixo do outro (em direção de colunas)
+  - column-reverse               Items um em baixo do outro (em direção de colunas) ao contrário              
+
+
+  -Coloque um display: flex; no pai. Nesse caso , é a <div> container.
+
+  Automaticamente ele vai ter um flex-direction de row.
+  
+  -Altere o flex direction para cada um (row,row-reverse,column,column-reverse.)
+
+  Se eu quero mover os items, eu preciso dar os comandos no pai (container)
+
+
+  Lembrando que, quando eu uso o row-reverse ou o column-reverse, tudo fica ao contrário.
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  flex-wrap:;
+  Diz se os items vão quebrar a linha ou permanecer na mesma linha.
+
+  -Crie mais 3 <div> item e coloque o flex-wrap:;
+
+  - wrap            Quebra a linha se precisar
+  - nowrap          Não quebra a linha
+  - wrap-reverse    Quebra a linha se precisar de forma reversa
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  flex-flow:;
+  shorthand para flex-direction e flex-wrap
+
+  -Coloque a propriedade flex-flow
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  Apague as 3 ultimas <div> criadas.
+
+  justify-content
+  Alinhamento dos itens no eixo principal (eixo x)
+
+  Se o flex-direction for row = alinhamento horizontal
+  Se o flex-direction for column = alinhamento vertical
+
+  Eu não preciso mais usar o margin auto para centralizar. Vou usar o display flex que é mais gostosin.
+
+
+  justify-content:center;             Centraliza
+  justify-content:flex-start;         No começo
+  justify-content:flex-end;           No final
+  justify-content:space-between;      Maior espaço entre os elementos
+  justify-content:space-around;       Espaço entre os elementos e nas extremidades
+  justify-content: space-evenly;      Espaço entre os elementos e nas extremidades de forma igual
+
+
+  -Use o justify-content:; e teste cada um deles:
+    -Use primeiro com o flex-direction:row;
+    -Use depois  com o flex-direction:column;
+
+  Quando eu coloco o flex-direction column o eixo principal muda, ficando ao contrário.
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+
+  align-content:;
+  Alinhamento da linha dos items de forma vertical (eixo y)
+  Se o flex-direction for column = alinhamento horizontal
+
+  align-items: stretch;      por padrão vem assim. Ocupa a altura máximo do container
+  align-items: center;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: baseline;    Alinha com base no conteúdo
+
+
+
+  Aumente a width e height de 2 <div>.
+
+  -Use com o flex-direction:row e column;
+
+  Se eu quiser centralizar um texto, é só dizer que o pai é flex e alinhar. Bem gostosin.
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+  align-items:;
+  Alinhamento dos itens
+
+  Uso quando tenho apenas 1 linha/coluna
+
+  No exercício acima, use o align-items:;
+
+  Viu??
+  O align-content:; posicoina a linha inteira.
+  O align-items:; posiciona os items nessa linha.
+
+  Para usar o align-content:; eu preciso estar com o wrap ativado.
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+
+  Imagine que eu queira centralizar meu container dentro do <body>:
+
+  -Centralize a <div> container de forma horizontal e vertical
+
+  -Primeiro vou transformar meu <body> em display flex.
+    justify-content: center;
+    align-items: center;
+
+  O body não ocupa a página inteira. Então, vou definir uma width e height pra esse body de 100% da janela.
+    height: 100vh;    altura de 100% da viewport height (altura da janela)
+    width: 100vw;     largura de 100% da viewport height (altura da janela)
+
+  Se ficar com uma barra de rolagem, eu tiro a margin
+    margin:0;
+
+    Nice, né??
+  --------------------------------------------------------------------------------------------------------------------------------------------------
+-->
+
+<!DOCTYPE html>
+<html>
+  <head lang="pt-br">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="padrao.css">
+    <title>Testando</title>
+
+    <style>
+      div.container{
+        border: 3px solid black;
+        height: 500px;
+        width: 200px;
+        font-size: 23px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+    
+      div.item{
+        border: 1px solid black;
+        background-color: rgba(255, 99, 71, 0.616);
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+
+      }
+
+      div.item_5{
+        height: 60px;
+        width: 90px;
+      }
+
+      div.item_6{
+        height: 30px;
+        width: 25px;
+      }
+      
+    </style>
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item_1"><span class="texto">1</span></div>
+      <div class="item item_2"><span class="texto">2</span></div>
+      <div class="item item_3"><span class="texto">3</span></div>
+      <div class="item item_4"><span class="texto">4</span></div>
+      <div class="item item_5"><span class="texto">5</span></div>
+      <div class="item item_6"><span class="texto">6</span></div>
+    </div>
+    
+  </body>
+</html>
+

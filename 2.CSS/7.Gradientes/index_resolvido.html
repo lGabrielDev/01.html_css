@@ -1,0 +1,89 @@
+<!-- 
+CSS gradients
+Aqui no CSS tem 3 tipos de gradientes:
+
+Linear Gradients
+Radial Gradients 
+Conic Gradients
+
+Só me interessa o Linear Gradient. Igual quando usava nos dashboards. Fica mais nicezin.
+
+Para criar um gradiente você precisa definir pelo menos 2 cores.
+A sintaxe fica assim:
+background-image: linear-gradient(direction, color-stop1, color-stop2, ...)
+
+Para facilitar a visualização, coloque também na formatação o height(altura):400px
+
+1- Crie um gradiente de azul a amarelo no elemento <h2> usando predefined names (green,orange,blue,etc...).
+
+2- Crie um gradiente com 5 cores no elemento <h2> usando predefined names (green,orange,blue,etc...).
+
+3- Faça os dois exercícios de cima, usando HEX.
+
+4-Faça os dois exercícios de cima, usando RGB.
+linear-gradient(to right,rgb(179,250,164),rgb(217,0,131,1.0))
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Direções do Linear Gradient:
+
+Igual nos dashboard, eu posso escolher a direção do gradiente
+
+background-image: linear-gradient(direction, color-stop1, color-stop2, ...)
+
+Eu sempre vou colocar para a direção que eu quero ir:
+
+- to bottom
+- to top
+- to left
+- to right
+ 
+Posso fazer na diagonal também:
+
+- to bottom left
+- to bottom right
+- to top left
+- to top right
+
+
+
+1- No elemento <h2>, faça um gradiente com 4 cores para todos os lados citados acima:
+---------------------------------------------------------------------------------------------------------------------------------------
+Repetindo um Linear Gradient
+
+Olha que legal...
+
+background-image: repeating-linear-gradient
+
+Igual no gradiente normal, mas no final da cor,eu coloco a porcentagem. Pode ser em qualquer cor.
+
+background-image:repeating-linear-gradient(to right,#FAEFA0,#83B1A3 15%)
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS gradients</title>
+    <style>
+        h2{ 
+            width:900px;
+            height:50px;
+            background-image:repeating-linear-gradient(to right,#FAEFA0 50%,#83B1A3);
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <h2>.</h2>
+</body>
+</html>

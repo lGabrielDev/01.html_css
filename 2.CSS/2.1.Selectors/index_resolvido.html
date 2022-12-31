@@ -1,0 +1,229 @@
+<!-- 
+- Crie a estrutura html
+- Coloque 4 parágrafos
+-Lets go!
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    CSS Selectors
+
+Usado para selecionar os elementos que eu quero alterar.
+
+
+Element Selector simple
+
+Aqui é o padraozin. Selecione um elemento para ser estilizado(Use o parágrafo).
+-Mude a cor para azul e alinhe ao centro todos os elementos <p> 
+
+<head>
+
+ <style>
+        p{
+            color:blue;
+            text-align:center;
+        }
+
+    </style>
+
+</head>
+
+
+Todos os parágrafos foram alterados.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ CSS id Selector
+Usado para 1 elemento único
+
+Aqui eu dou um ID para meu elemento. Digamos que eu queira formatar o style de apenas 1 dos parágrafos.
+
+Primeira coisa, eu dou um ID ao parágrafo que eu quero.
+Crio um atributo id na tag.
+
+-Dê um id para o parágrafo 2 (coloque id="p2"). 
+-Esse id não pode começar com número.
+
+
+<p id="p2"> </p>
+
+Percebeu? Eu dei um nome para meu parágrafo 2. Como se tivesse usando um ALIAS do SQL.
+
+
+
+
+-Agora que meu parágrafo 2 tem um nome (p2).... 
+-Vá no head e mude a cor e alinhe ao meio o parágrafo 2.
+
+Para funcionar, eu tenho que colocar # na frente do id.
+Ficaria assim:
+
+
+<head>
+
+<style>
+        #p2{
+            color:blue;
+            text-align:center;
+            }
+
+    </style>
+    
+</head>
+
+
+
+Apague todas as CSS.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS class Selector
+
+Grupo de elementos
+
+Aqui eu coloco uma classe, ou seja... Posso ter mais de 1 elemento com essa mesma classe.
+
+
+
+Digamos que eu queira deixar na mesma formatação o <h1> e os dois primeiros <p>.
+
+Eu quero o <h1> e os dois primeiros parágrafos alinhados ao meio e na cor vermelha.
+
+
+-Vou nos meus elementos (<h1> , 2 primeiros <p>) e coloco o atributo class
+<h1 class="class_1">
+<p  class="class_1">
+
+
+
+Agora , é só colocar o style no head, e especificar a class.
+
+Ao contrário do id que eu usava #
+Aqui eu vou usar . (ponto)
+
+    style>
+            .class_1 {
+            text-align:center;
+            color:red;
+            }
+            
+        </style>
+
+
+
+
+-
+-
+Basicamente, o que eu estou dizendo é :
+CSS, pegue todos os elementos que são da class "class_1" e faça essa formatação. Legal, né?
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Diferenciando elementos do CSS class Selector
+Perceba que <h1> e <p> estão na mesma class.
+
+Se eu quisesse especificar qual tipo de elemento da class que eu quero alterar, eu faria:
+
+Sabendo que <h1> e <p> estão na mesma classe,
+
+-Faça a formatação  da class_1 de apenas os <p>.
+
+
+
+
+Aqui, fica igual o de cima, eu só vou especificar o elemento <p> antes. Vai ficar assim:
+
+
+
+ <style>
+        p.class_1 {
+          text-align:center;
+          color:red;
+        }
+
+    </style>
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS Universal Selector
+O seletor universal no CSS também é o * (asterisco)
+
+Apague todas as CSS anteriores e deixe tudo azul e centralizado.
+<style>
+* {
+
+    }
+</style>
+
+
+
+-Apague as CSS anteriores.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Adicionando 2 class em um mesmo elemento
+
+
+-Crie 2 class:
+
+class_centralizar   contendo cor da fonte e alinhamento central
+class_fonte_grande  contendo font-size 40px
+
+
+
+-Adicione 2 class para o parágrafo 2.
+
+-Pronto. Agora é só colocar <style> no <head> e colocar as class.
+
+Para colocar a class, uso o . (ponto)
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+Vários elementos com formatação igual
+
+Digamos que meu <h1>, <h2>, <p> têm a mesma formatação.
+
+Para ficar um código mais clean e eu não precisar criar um CSS para cada elemento, eu agrupo eles.
+
+Ficaria assim:
+h1,h2,p {}
+
+
+Eu coloco eles juntos e separo por vírgula (comma).
+
+-Altere a cor para vermelho e alinhe para direita os elementos: h1,h2,p
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+CSS Selectors
+
+#id                     #p1                     1 elemento apenas
+.class                  .class_1                todos que tiverem essa clase  
+element.class	        p.class_1               todos os p que tiverem class_1    
+*	                    *                       todos os elementos
+element	                p                       todos os parágrafos
+element,element,..	    h1,p                    todos os h1 e parágrafos
+
+
+
+
+
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+</head>
+<body>
+    <h1>Selectors</h1>
+    <p >Isso é um parágrafo.</p>
+    <p>Isso é um parágrafo.</p>
+    <p>Isso é um parágrafo.</p>
+    <p>Isso é um parágrafo.</p>
+    <h2>Título 2</h2>
+    
+</body>
+</html>

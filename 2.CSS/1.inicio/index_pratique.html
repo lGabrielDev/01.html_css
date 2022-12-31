@@ -1,0 +1,141 @@
+<!--
+Não apague nada. Crie novas páginas e faça o exercício do zero. Crie uma subpasta.
+
+Há 3 formas de inserir CSS
+
+1- Inline CSS
+2- Internal CSS
+3- External CSS
+
+1- Inline CSS
+Usado para aplicar um style para um único elemento (Deixar apenas um dos <p> de determinada cor por exemplo).
+
+Para usar o inline style, eu coloco o atributo <style> dentro da tag.
+
+Faça a alteração de apenas 1 <p> e 1 <h2>
+
+
+A  técnica inline style não é muito bom usar. Deixa seu código meio confuso. Só uso em momentos pontuais.
+
+------------------------------------------------------------------------------------------------------------------------------------
+2- Internal CSS
+Usado para aplicar style em uma única página.
+
+Para usar o internal style, eu coloco o atributo <style> </style> dentro de <head>
+
+<head>
+    <style>
+        body
+        {
+        color:blue;
+        }
+    </style>
+</head>
+
+
+Perceba que eu abri e fechei o atributo style, e dentro dele coloquei qual a tag que eu quero alterar o estilo (nesse caso foi body, mas poderia ser h1,h2,p,a,ou qualquer outro elemento...).
+
+Depois que eu escolho o que eu quero estilizar eu abro chaves.
+
+
+Defina o background color de body e do h1.
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+3- External CSS
+
+Com o External style eu posso mudar todas as páginas do meus site, alterando apenas 1 arquivo. Bem nice.
+
+Basicamente, eu coloco os meus estilos em outro arquivo. Esse arquivo é um arquivo .css .
+
+Como eu quero linkar esse arquivo, eu preciso usar a tag <link> com os atributos rel, href.
+
+rel     =   Especifica o tipo de relationship com o arquivo (Nesse caso é uma relação de stylesheet)
+href    =   Onde está o arquivo que eu vou usar. Qual a URL.
+
+
+
+Não apague nada. Crie novas páginas e faça o exercício do zero.
+
+-Crie um novo arquivo .css (em uma subpasta) e coloque os estilos:
+
+-Altere o background de body
+-Altera a cor e a font-family de h1
+
+
+
+Pronto. Agora que eu tenho meu External CSS, vou linkar no head.
+
+
+-No head, crie um link para o seu External CSS
+
+<link rel="stylesheet" href="css_style/mystyle.css">
+
+
+
+
+Não precisa criar outro documento, apague o style feito no head do exercício anterior.
+
+
+
+
+Existe uma hierarquia entre essas 3 formas CSS
+
+
+
+1º Sendo a Inline CSS a que prevalecerá.
+2º Depois as outras duas.
+As outras duas (Internal , External) vai depender de quem for escrito por último.
+
+
+
+Faça um exercício de comparação.
+
+Se for usado diferentes formas (inline,internal,external) para um mesmo elemento(h1 por exemplo) a ordem de preferência será:
+
+
+1-Inline style (inside an HTML element)
+2-External and internal (in the head section) dependendo de quem estiver a baixo.
+
+-Apague todas as formatações CSS que você fez, incluindo a external css.
+-Mude a cor da fonte de 1 parágrafo usando inline(verde).
+-Mude a cor da fonte dos parágrafos no head(azul).
+Em baixo o link external:
+-Mude a cor da fonte dos parágrafos no external(vermelho).
+
+Coloque o external em baixo de veja qual cor vai aparecer:
+
+
+<head>
+    <style>
+        p {
+        color:blue;
+        }
+    </style>
+
+    <link rel="stylesheet" href="caminhodoarquivo.css">
+</head>
+
+Agora inverta. Coloque o internal em baixo e veja qual cor vai aparecer:
+
+
+<head>
+    <link rel="stylesheet" href="caminhodoarquivo.css">
+
+    <style>
+        p {
+        color:blue;
+        }
+    </style>
+
+</head>
+
+
+
+Viu?? 
+Quem estiver em baixo, ou seja, o último código a ser lido prevalecerá. Lembrando que o inline tem a prioridade máxima (Apesar de ser o menos usado).
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+-->

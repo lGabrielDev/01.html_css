@@ -1,0 +1,59 @@
+<!--
+Colocar vídeos.
+Uso a tag <video>
+
+
+Os principais parâmetros da tag <video> são:
+
+controls    Controle(volume,avançar,etc)
+poster      Qual imagem vai aparecer no vídeo antes de eu clicar no play.
+src         Origem do vídeo.Se eu estiver usando o <source> não preciso colocar. O parâmetro src já vai estar em <source>
+width       Largura do vídeo
+height      Altura do vídeo
+type        Tipo do vídeo(mp4,ogv,etc)
+
+
+
+Exercícios:
+1-Coloque um vídeo simples(vídeo do urso).
+-Volta no vídeo do guanabara e baixa o programa para converter video.
+-Faça a conversão em pelo menos 3 video types.
+-Teste cada um deles no seu navegador para ver se cada video type está funcionando.
+
+
+
+2-Coloque o mesmo vídeo só que agora com a tag <source>. Caso não rode mp4, rodar nos outros formatos. 
+
+3-Crie um parágrafo para caso o navegador do usuário não rodar em nenhum formato.
+
+4-Mude a largura e altura do vídeo. Coloque dentro da tag <video>
+
+5-Coloque um parâgrafo e diga que o navegador do usuário não está funcionando vídeo. Ou seja, se nenhum <source> funcionar, escreve essa mensagem.
+
+
+No <source>, primeiro ele testa o primeiro(o de cima).
+-->
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Vídeos</h1>
+    <h2>Vídeo com 1 formato</h2>
+    <p>Aqui aprenderemos a criar vídeos.</p>
+    <p>Exemplo de vídeo:</p>
+    <video src="videos/urso.mp4" poster="videos/capa_video_urso.jpg" controls width="300px" height="200px"></video>
+    <h2>Vídeo com vários formatos</h2>
+    <video controls poster="https://ogimg.infoglobo.com.br/in/25294691-b52-1e2/FT1086A/211125112643-bart-the-bear-ii-exlarge-169-1.jpg"  width="300px" height="200px">
+        <source src="videos/urso.mp4" type="video/mp4">
+        <source src="videos/urso.ogv" type="video/ogv">
+        <p>Infelizmente seu navegador não suporte vídeo.<br>
+        Se quiser ver o vídeo, acesse de outro navegador ou baixe o vídeo clicando <a href="videos/urso.mp4" download>aqui</a>.</p>
+    </video>    
+</body>
+</html>

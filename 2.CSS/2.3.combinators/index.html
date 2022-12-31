@@ -1,0 +1,84 @@
+<!--
+
+Combinators
+Algo que explica a relação entre os seletores.
+
+Aqui vamos formatar um elemento dentro de outro
+
+Os combinators mais usados são:
+
+(space)     descendant selector     Formata todos os elementos que estão dentro de um elemento
+(>)         child selector          Formata só os elementos que são filhos desse elemento
+
+ -------------------------------------------------------------------------------------------
+
+(space)     descendant selector
+
+
+-crie uma <ol> simples com 3 <li>
+-crie uma <ul> simples com 3 <li>
+
+Formate a font-size de apenas os <li> que estão dentro de <ul>
+    
+ul li{}
+
+
+
+
+Viu?? Apenas os <li> que estão dentro de <ul> foram alterados.
+
+
+
+
+
+-Crie 3 <p> e envelope eles com <div>
+Formate todos os elementos que estão detro de div.
+
+
+div p{}
+
+
+
+
+
+1-
+-Crie 4 <p> e 2 <h2>
+-Envelope o 3 <p> como uma <section>
+-Envelope tudo com um <div>
+-Crie uma CSS e altere o background-color dessa <div> 
+
+Tudo que está dentro da <div> foi alterado.
+
+Agora, quero formatar apenas os <p>.
+
+-É só dar um espaço na <div> e colocar o elemento descendente.
+
+div p{}
+
+
+
+2- Agora vamos fazer a mesma coisa, usando uma class ou id
+Faça a mesma coisa de cima, só que dê uma class para essa <div> 
+
+
+div#divisao_1 p {}
+---------------------------------------------------------------------------------------------------------------------------------------
+
+(>)         child selector
+Formate só os elementos que são filhos da <div>
+
+Faça o mesmo exercício acima e troque o combinator (space) para >
+
+Envelope o 3º <p> com uma <section>
+
+Perceba que o terceiro <p> não foi formatado. Ele não é filho da <div> e sim da <section>
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+-->

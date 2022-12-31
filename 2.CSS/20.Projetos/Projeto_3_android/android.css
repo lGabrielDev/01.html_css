@@ -1,0 +1,292 @@
+@charset "UTF-8";
+
+/* font-family:Prompt; */
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap'); 
+
+
+@font-face {
+    font-family: 'headings_font';
+    src: url(../Projeto_3_android/arquivos/fontes/idroid.otf);
+}
+
+
+ /* font-family:'Bebas Neue'; */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+/* *{
+    border: 1px solid black;
+} */
+
+
+
+
+
+/*-------------------- header--------------------------------*/
+
+*{
+    overflow-x: hidden;
+}
+
+header{
+    background-image:linear-gradient(to top, #1A5C38 23%,#1E6C41,#2DA161,#32B36B,#36C074,#3CD882);
+
+    margin-left: -8px;
+    margin-right: -8px;
+
+    font-family: 'arial',sans-serif;
+
+}
+
+
+header > .conteudo_header{
+    padding: 10px 0px 21px 0px;
+}
+
+
+
+
+h1.h1_header{
+    text-transform: uppercase;
+    font-family: 'Bebas Neue';
+
+}
+
+.p_header,.h1_header{
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+.h1_header{
+    font-weight: bolder;
+    color: #EBF3EE;
+}
+
+.p_header{
+    color: #ebf3eed2;
+}
+
+
+/*------------------------- links header--------------------------------*/
+
+nav{
+    padding: 11px 11px 11px 22px;
+    margin-left: -18px;
+
+
+}
+  nav > a {
+    text-decoration: none;
+
+    color: #EBF3EE;
+
+    font-weight: bold;
+
+    padding: 9px;
+
+    margin: 0px 10px 0px 0px;
+}
+
+nav > a:hover{
+    background-color: #84E1AD;
+    color: darkgreen;
+    text-decoration: none;
+    border-radius: 10px;   
+    font-weight: bold; 
+    transition-duration: 0.5s;
+
+}
+
+
+/*------------------------- links --------------------------------*/
+
+
+a{
+    color: #1A5C38;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline darkgreen 2px;
+}
+
+
+
+
+img.link_icon{
+    vertical-align: text-top;
+}
+
+
+
+.icon_background{
+    background-color: #84E1AD;
+}
+
+
+
+/*------------------------- body--------------------------------*/
+
+body{
+    background-color: #84E1AD;
+    min-width: 100px;
+    margin: 0px;
+}
+
+
+main{
+    background-color: white;
+
+    margin: auto;
+    margin-top: 0px;
+
+    max-width: 815px;
+    min-width: 320px;
+
+    text-align: justify;
+
+    padding: 0px 18px 0px 18px;
+
+    font-family: 'Prompt';
+
+    box-shadow: 2px 4px 6px grey;
+}
+
+
+.h2_historia{
+    margin-top: 0px;
+
+    padding: 19px 0px 0px 0px;
+
+    font-family: 'headings_font',sans-serif;
+
+    color: #1A5C38;
+
+    margin-bottom: -1px;
+
+}
+
+
+
+
+main  h2,h3{
+    font-family: 'headings_font',sans-serif;
+
+    color: #1A5C38;
+
+    margin-bottom: -1px;
+
+    margin-top: 39px;
+
+    text-align: justify;
+}
+
+
+h3{
+    background-image: linear-gradient(to right, #84e1ad, transparent);
+}
+
+
+main p{
+    text-align: justify;
+    line-height: 26px;
+    text-indent: 20px;
+}
+
+
+
+
+span.palavra_importante{
+    color: green;
+    font-weight: bold;
+}
+
+
+/*---------------imgs/videos----------------------------------*/
+.droid_full{
+    text-align: center;
+}
+
+.mulher_full{
+    margin: auto;
+    text-align: center;
+}
+
+
+div.img_man_droid{
+    text-align: center;
+}
+
+
+
+.video_youtube{
+    text-align: center;
+}
+
+iframe.video{
+    width: 100%;
+}
+
+
+/*----------------------- extra--------------------*/
+
+section > h3.h3_extra{
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+    background-color: #1A5C37;
+    background-image: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -10px -11px -9px -10px;
+    padding: 9px 9px 3px 9px;
+}
+
+
+
+.extra{
+    background-color: #83E1AD;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px grey;
+    padding: 10px 10px 10px 10px;
+    margin-top: 18px;
+}
+
+
+.extra > ul{
+    list-style-position: inside;
+    list-style-type: disc;
+
+    column-count: 2;
+}
+
+
+/*----------------------- footer--------------------*/
+
+footer{
+    text-align: center;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 10px;;
+}
+
+
+
+
+
+footer > a{
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+footer > a:hover{
+    text-decoration: underline white 3 px;
+}

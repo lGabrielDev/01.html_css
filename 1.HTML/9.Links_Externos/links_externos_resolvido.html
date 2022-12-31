@@ -1,0 +1,73 @@
+<!-- 
+Toda vez que você está acessando um site e clica em um local para 
+ir para outra página, outro site ou até para baixar um arquivo, você está interagindo com um hyperlink.
+Esse ponto que clicamos é chamado de hyperlink/âncora. <a> Que significa anchor
+
+
+Atributos da tag <a> </a>
+
+
+- href      Especifica a url que da página.          Aqui diz qual a página que o usuário será transportado.   
+
+
+
+- target    Especifica onde abrir o documento.      
+            -  _blank      Abre a página em uma nova guia em branco(_blank)
+            -  _parent
+            -  _self       Abre na mesma página.
+            -  _top    
+
+
+
+-rel        Especifica a relationship entre a página atual e a página linkada.
+            - next          next document 
+            - prev          previous document
+            - external      página de outro site
+            - nofollow      diz que não necessariamente apoia a propaganda anunciada
+            - 
+
+
+                    
+1-Faça um link simples citando o site W3schools.Lembrando que o parâmetro 'href' sempre acompanha a tag <a>.
+
+2-Faça um link simples usando parâmetro target. Use cada um:
+_blank      
+_parent
+_self     
+_top
+
+
+3-Coloque o parâmetro rel nos links criados. Nesse caso será external.
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links (Anchor)</title>
+</head>
+<body>
+    <h1>Tipos de links</h1> 
+    <p>Aqui criaremos alguns links.<br>Começaremos com links simples, depois para links mais avançados.</p>
+
+    <h2>Link Simples</h2>
+    <p>O site que eu uso para estudar é o W3school. O link para acessá-lo encontra-se logo abaixo:</p>
+
+
+    <p>Link Simples <a href="https://www.w3schools.com">W3schools</a></p>
+    <h2>Link Simples parâmetro target:</h2>
+    <ul>
+    <li>_blank<a href="https://www.w3schools.com" target="_blank"  rel="external">   W3schools</a> </li><br>
+    <li>_parent <a href="https://www.w3schools.com" target="_parent"  rel="external"> W3schools</a> </li><br>
+    <li> _self <a href="https://www.w3schools.com" target="_self"  rel="external">  W3schools</a></li><br>
+    <li>_top <a href="https://www.w3schools.com" target="_top"  rel="external">    W3schools</a></li><br>
+    </ul>
+
+    
+
+    
+</body>
+</html>
+

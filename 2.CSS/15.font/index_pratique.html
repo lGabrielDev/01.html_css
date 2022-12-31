@@ -1,0 +1,274 @@
+<!-- 
+   CSS Font
+
+font-family
+Generic font-family
+
+Existem 5 tipos de font-family
+
+
+1- serif        Têm uma curvatura na letra. Um estilo mais moderno.
+2- sans-serif   Sem serif. Uma parada mais clean.
+3- monospace    Todas as letras têm o mesmo espaçamento. Fica numa pegada de sistema.
+4- cursive      Escrito a mão
+5- fantasy      Fontes customizadas
+
+
+Olhe a imagem "serif.jpeg"
+
+Em computadores, sans-serif é considerado mais fácil de ler.
+
+
+1- Crie 4 <h2> e altere a fonte-family de cada uma para as fontes citadas acima.
+
+Perceba a diferença.
+
+
+Quando eu coloco uma fonte que tem espaço (times new roman) eu preciso colocar ela entre aspas.
+
+font-family:"Times New Roman";
+
+
+
+2- Escolha outra fonte que tenha espaçamento. Use as aspas.
+
+
+Fallback Fonts (fontes alternativas)
+
+
+As vezes o navegador do usuário ou o dispositivo não vai conseguir ler determinada fonte. Para evitar problema, eu coloco fontes genéricas. Se, caso a primeira fonte não funcionar, ele vai tentar outra, e outra etc. Sempre termine a lista com uma fonte genérica.
+
+Para fazer isso, eu separo por vírgulas (comma).
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+
+Aqui eu tenho 3 fontes: Tahoma, Verdana, and sans-serif.
+
+
+p {
+font-family: Tahoma, Verdana, sans-serif;
+}
+
+A segunda e terceira são backups para caso a primeira não funcione.
+
+
+
+
+
+Existem algumas fontes que funcionam na maioria dos navegadores/dispositivos.
+
+
+sans-serif:
+Arial
+Verdana
+Helvetica
+Tahoma
+Trebuchet MS
+sans-serif (generic)
+
+serif:
+Times New Roman
+Georgia
+Garamond
+serif (generic)
+
+monospace:
+Courier New
+monospace (generic)
+
+cursive:
+Brush Script MT
+cursive (generic)
+
+
+1-
+-Crie um <h2> para 1 fonte de cada categoria, e coloque uma fallback font (fonte genérica). 
+
+Você vai precisar dar classe para cada <h3>
+
+
+
+
+Nice né??
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Font Style    Usado para deixar a fonte em itálico (italic, normal)
+
+Font Weight       Deixa a fonte bold ou normal (normal,bold)
+Eu também posso escolher a grossura da fonte com números.
+
+100,200,300,400,500,600,700,800,900
+
+Vai depender se a fonte tiver essas espessuras. Normalmente as fontes vem com normal, um pouco mais grossinha (400,500) e bold.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+font-size
+Define o tamanho do texto
+Por padrão o tamanho do <p> é 16px.
+
+
+Eu posso deixar o font-size de um determinado tamanho eternamente. Mesmo que eu altere o zoom da página, vai ficar do mesmo tamanho. Para isso eu uso o vw (viewport width) Largura da janela de visualização.
+
+font-size:8vw;
+
+
+Coloque o <h1> com 20% do tamanho da janela.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS Google Fonts
+Se você não quiser usar as fontes do html, você pode pegar outras fontes do google.
+
+Existem 2 formas de colocar:
+-Através do html
+-Através do CSS
+
+
+Através do html:
+
+É só criar um link. Igual quando você cria um link css external.
+
+<link rel="stylesheet" href="">
+
+Vai continuar sendo stylesheet e o href vai ser a url do google.
+
+Vamos fazer passo a passo:
+
+1-Coloque uma fonte do google
+
+-Crie um <p>
+-Vá no google fonts e escolhe uma fonte
+-No canto direito da tela clique em @import
+-Copie a url
+-Agora é so criar um <link> no head (igual voce faz com css external) e colar a url
+-Coloque um comment dizendo que se trata de uma fonte do google com tal nome
+-Cria a css font-family e coloque o nome da fonte (Não se esquece de colocar uma outra fonte genérica).
+
+
+Atenção ao usar combinações de fontes. Nao inventa moda. Escolha uma main font e pega outra parecida.
+Exemplo:
+
+Uso uma lucida como main
+Uso uma 'lucida sans' como secundária.
+E também sempre deixando uma fonte genérica caso a que eu escolhi não funcione.
+
+Sacou?
+
+
+
+
+Através do CSS:
+
+
+Vimos como colocar uma font-family do google através do html lá no <head> usando <link>;
+
+
+Para colocar no CSS eu faço o seguinte:
+
+Eu não preciso colocar o <link>. Eu não vou usar html, vou usar css.
+
+Então vai ser dentro do <style> ou do CSS external.
+Para colocar como CSS , eu faço o mesmo procedimento de cima. Só copiar a url(Não esqueca de colocar aspas simples).
+-No começo do meu css external eu...
+-Crio uma regra @import url e colo a url
+-Coloque a font-family + uma fonte genérica e voalá.
+
+Se a font tiver espaço coloque aspas,exemplo: "Montserrat Alternates"
+Lembra que vc usa @charset no CSS?? Entao, só que agora usamos um @import url. Estamos importando algo de outro site.
+
+Daora ne?
+
+
+
+
+
+
+
+Colocando várias fontes.
+
+-Crie 4 <p>
+-Importe as 4 fontes por html, usando <link>
+-Importe as 4 fontes por CSS, usando @import url
+-Escreve um comentário em cada 1 dizendo que foi importado uma font-family
+
+
+-Dê uma class para cada <p>
+-Adicione as 4 font-family e coloque uma fonte genérica em cada.
+Pronto.
+
+Com apenas 1 url do google você consegue colocar todas.
+
+
+
+Quando tenho várias páginas html é interessante colocar as fontes em um único arquivo. Pra isso seria melhor colocar no CSS external. E não ficar colocando link em cada página html. 
+Imagine que meu site tenha 10 fontes. São 10 <links> em cada arquivo html.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CSS font shorthand (uma mãozinha)
+
+Agora fica gostosin.
+
+font-style
+font-weight
+font-size
+font-family
+
+Respeite a ordem das propriedades.
+
+1- Crie 1 <p> de coloque uma font shorthand com todas as propriedades acima.
+   Não esqueca de colocar comma(vírgula) e a fonte genérica.
+   Siga exatamente a ordem.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Fontes externas
+Outra forma de usar fonte seria baixando.
+
+A partir do momento que eu baixo uma fonte e deixo na minha máquina ela está no meu servidor.
+
+Minhas fontes próprias, que estão no meu servidor (fonts que eu baixei) são definidas no CSS como:
+
+@font-face
+
+
+Essas fontes podem ser de vários formatos. Os principais são:
+
+TrueType Fonts (TTF)
+OpenType Fonts (OTF)
+
+
+
+Colocando a fonte baixada:
+
+
+1-
+-Vá em algum site de free fonts (site dafont por exemplo)
+-Escolha uma font. Essa fonte deve ter os glifos com acentuação (á,à,ã,etc...) Estou escrevendo em português, tem muitas palavras com acentuação. A font precisa ter glifos com acentuação.
+
+-Crie uma pasta fonts e cole lá
+-Renomeio o arquivo para um nome mais suave/fácil
+-Crie uma CSS @font-face{}          Aqui eu estou adicionando uma fonte ao minha página html.
+
+@font-face {
+    font-family:;                             Define um nome para sua font
+    src:url("");                              Ctrl+Space e ache o arquivo tft
+}
+
+
+
+2-
+Agora, coloque 2 fontes do seu servidor. (Vou ter que usar 2 font-face)
+
+-Coloque 1 fonte para um <p> e 1 fonte para um <h1>
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-->
+

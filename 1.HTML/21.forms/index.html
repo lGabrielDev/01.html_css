@@ -1,0 +1,152 @@
+<!--
+<form>
+
+<form> = Formulário
+
+O forms é usado para coletar os dados inseridos pelo usuário.
+
+Quando eu faço um cadastro em uma página, eu estou dando meu usuário e e-mail, por exemplo, para o banco de dados daquele servidor.
+
+O form é um container onde posso ter diferentes tipos de imput(entrada). Posso ter text fields, checkboxes, radio buttons, submit buttons,etc
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+<form> Attributes
+
+action    =     Escolho para onde os dados vão retornar. Se eu não colocar action, os dados serão enviados para a página atual.
+
+
+
+target    =     Após enviar os dados, vai ser aberta uma nova página ou não (_blank, _self). Funciona igual nos <a target>
+
+tem alguns outros...Não precisa aprender agora.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Form Elements
+
+<input>                     O usuário vai colocar os dados de entrada (entrada de dados)
+<label>                     Etiqueta explicando o que vai ser digitado,selecionado,etc...     
+<select>                    Cria um drop-down list.   
+<option>                    opções do <select>
+<textarea>                  Caixa de texto  
+<button>                    Cria um button    
+<fieldset>                  Agrupar dados relacionados em um formulário. Cria uma div bem gostosa e organizada.
+
+<legend>                    Define uma legenda para o <fieldset>
+<datalist>                  
+<output>                    
+                  
+             
+
+
+
+Não precisa decorar todas. Quando eu precisar alguma delas, eu aprendo e dale. Não precisa decorar a poha toda, seja inteligente.
+
+------------------------------------------------------------------------------------
+
+<input> Entrada
+Entrada de informação. O usuário que vai colocar.
+
+É o elemento de formulário mais usado.
+
+Ele pode ser exibido de várias maneiras, dependendo do atributo type:
+
+
+<input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week">
+
+
+-Crie um <form>
+    -Dentro do formulário crie um <input> com o atributo type.
+        Dê ctrl+space e teste cada type
+
+
+
+
+
+<input> Attributes
+
+value           Valor inicial para um input  (Se o usuário não digitar nada, vai ser exibido value)
+readonly        Não pode digitar. Somente leitura. (Coloque o atributo value)
+disabled        Não pode digitar nem clicar.
+size            largura em caracteres (só funciona com os input types: text, search, tel, url, email, and password.)
+maxlength       Largura máxima de caracteres que pode ser digitado (isso é daora)
+placeholder     Dica do que deve ser digitado. Isso é muito bom de usar.
+
+-Crie um <form> simples com first name, last name, age e botão de submit.
+    Coloque cada atributo acima em um <input>            
+------------------------------------------------------------------------------------
+
+<label>
+É a etiqueta que informa oq deve ser digitado, a opção que será escolhida, etc...
+
+a tag <label> acompanha o atributo 'for'. Esse atributo tem que fazer referencia ao id do <input>.
+
+1- Crie um formulário simples onde o usuário vai digitar seu nome , sobrenome e vai apertar em submit(enviar).
+
+-Crie uma label para "First Name" e coloque o atributo for (referenciando o id do input)
+-Crie um input com type="text" (para o usuário digitar) e dê um id pra ele
+
+-Faça a mesma coisa para "Last Name"
+    -Crie um label e depois um input.
+
+------------------------------------------------------------------------------------
+<select>
+Cria uma drop-down list (lista suspensa).
+Dentro do <select> eu coloco a tag <option> com as opções dessa lista
+
+    <form>
+        <select>
+            <option>Melão</option>
+            <option>Melancia</option>
+            <option>Morango</option>
+        </select>
+    </form>
+
+
+-Crie um <form>
+    -Cria uma lable explicando.
+    -Coloque um <select>
+        -Coloque 5 opções de sorvete <option>
+        -Coloque um input com type"submit"
+------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+<fieldset> = Agrupa parte de um formulário (Cria uma div bem organizada com padding, etc...).
+<legend>   = Coloca uma legenda pra esse agrupamento
+
+
+-Crie um formulário simples, onde o usuário vai preencher:
+    -First Name
+    -Last Name
+    -Age
+
+-No fim, vai ter um botão de submit.
+-Envelope tudo que está dentro de <form> com o <fieldset> e depois coloque um <legend>
+
+Zica né??
+
+------------------------------------------------------------------------------------
+
+
+
+-->

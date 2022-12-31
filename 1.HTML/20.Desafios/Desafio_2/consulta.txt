@@ -1,0 +1,41 @@
+Projeto
+
+
+1-Index
+-Colocar foto do primeiro vídeo do curso (width="370" height="250") CHECK
+
+
+2-Fazer uma página html para cada curso.
+
+
+.Html   DONE
+URL do primeiro vídeo
+https://www.youtube.com/embed/rsFCVjr5yxc
+URL da playlist
+https://www.youtube.com/watch?v=epDCjksKMok&list=PLHz_AreHm4dlAnJ_jJtV29RFxnPHDuk9o 
+
+
+
+.Javascript DONE
+https://www.youtube.com/embed/Ptbk2af68e8
+link da playlist
+https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm
+
+
+
+.Hardware DONE
+link do primeiro vídeo
+https://www.youtube.com/embed/zpK_MqEMgu4
+link da playlist
+https://www.youtube.com/watch?v=zpK_MqEMgu4&list=PL3QUMSbwx-jPz30uFQ_HmyDJk19m_Yxom
+
+
+
+.Python DONE
+link do primeiro vídeo
+https://www.youtube.com/embed/S9uPNppGsGo
+link da playlist
+https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0
+
+ 
+3- Colocar links na página Index DONE

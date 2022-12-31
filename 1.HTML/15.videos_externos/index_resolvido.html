@@ -1,0 +1,40 @@
+<!--
+Para colocar vídeos do youtube, usaremos a tag <iframe>
+
+Basicamente o que eu tenho que fazer para colocar um video do youtube é:
+
+1-Colocar a tag <iframe>
+2-Coloco os atributos width="", height="", src=""
+3-Copiar a URL do vídeo no youtube. Não é para copiar na url lá em cima. Você tem que ir em compartilhar e aí sim copiar a url.
+
+
+4-Remover o '/watch?v='
+5-Colocar '/embed/'  no lugar               embed (embutir) 
+Pronto.
+
+Alguns vídeos podem não funcionar. Isso acontece quando o criador do vídeo configura para não disponibilizar o embed(embutir).
+
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>Vídeo externo</title>
+
+</head>
+<body>
+    <h1>Vídeo Externo</h1>
+    <p>
+        Aqui também vamos colocar vídeos na nossa página.<br>
+        Só que diferente do exercício anterior, colocaremos vídeos que estão upados em outro servidor(youtube).
+    </p>
+    <h2>Colocando um vídeo externo</h2>
+    <p><iframe width="560" height="300" src="https://www.youtube.com/embed/gdS0i6Q-mHI"></iframe></p>
+
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/JfJYHfrOGgQ" frameborder="0" gesture="media" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+</body>
+</html>

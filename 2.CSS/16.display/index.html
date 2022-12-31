@@ -1,0 +1,183 @@
+<!--     Display
+A propriedade display especifica como um elemento será exibido.
+
+O elemento pode ser Block-level ou Inline Elements
+
+
+    display: block;
+
+-Sempre começa em uma linha nova e ocupa toda largura disponível.
+-Ele pode ter width e height.
+-Não têm nenhum outro elemento do lado.
+
+Examples of block-level elements:
+<div>
+<h1> - <h6>
+<p>
+etc...
+
+
+
+
+display: inline;
+-Permanece na mesma linha e ocupa apenas a largura necessária. Ele vai ter o comportamento de palavras.
+-Não tem width e height
+
+Eu não consigo mexer na width e height de um elemento com display inline.
+Examples of inline elements:
+
+<span>
+<a>
+<img>
+<strong>
+<i>
+etc...
+
+
+
+1-Reproduza o exercício da foto (display_block.png)
+
+-Crie um <main> (que não deixa de ser uma <div>)
+-Estabeleca width,height 600x600 e coloque uma borda. (quero um quadrado)
+
+Dentro desse <main>:
+
+-Crie 3 <div> (Primeiro,Segundo,Terceiro)
+-Cria uma class que vai ser usada em todas as <div>. Com essa class vamos alterar todos as <div> de uma vez:
+    -Nessa class, mude a cor da letra de todas as <div> para branco.
+    -Altere a width de todas para 33.333% (Quero dividir as divs em 3 partes iguais 33,333 * 3 = 100%) o 100% é em relação a <main>, pois as divs estão dentro de <main>
+    -Altere a height de todas para 200px.
+    -Dê um text-aligne:center; (centralizar o conteudo de todas <div>)
+    -Dê essa class para cada <div>
+-Crie uma outra class individual para cada <div>        (cada <div> vai ter 2 class)
+    -Pinte o background de cada <div> em uma cor diferente.
+-Pronto. Agora é só posicionar cada <div> usando o margin.
+    -Você já sabe que para centralizar a caixa de um elemento dentro de outro eu uso o margin:auto; .
+    -Então, na terceira <div> é só usar um margin:auto;
+    -A segunda <div> têm que estar na direita. Se margin:auto; centraliza,
+    é só usar margin-left:auto;
+    -Voalá!
+
+    -O Primeiro já está pronto. Mas, assim como o segundo, é só usar margin-right:auto;
+
+    Ou seja...Quando eu digo margin-left:auto; , eu estou dizendo: Coloque o máximo de margin left até minha <div> ficar na direita.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+display: inline-block;
+Temos width e height e os elementos ficam na mesma linha.
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Display: none;
+Geralmente usado para esconder e mostrar elementos
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+    Alterando o display padrão:
+
+Todo elemento tem um display padrão.
+<p> é um block-level. Quando eu crio um <p> item ele é colocado em uma nova linha e ocupa a largura inteira.
+<i> é um inline-level. Quando eu crio um <i> ele permanece na mesma linha e ocupa a largura necessária apenas. Ele não tem width e nem height
+
+
+Mas..... Eu posso alterar o tipo de display. Vamos lá!
+
+
+
+Vamos alterar o display de uma <li>.
+Por padrão uma <li> é um block-level.
+
+-Crie uma <ul> com 3 <li>.
+Perceba que quando eu coloco um item da lista ele pula uma linha (é um block-level).
+
+-Altere o display de toda <li> para inline
+
+
+Legal né?
+Parece um menu de site né?? Vamos meu gafanhoto!
+
+
+Outro exemplo:
+
+-Crie um <p> lorem15
+-Coloque um <strong> em alguma palavra
+Por padrão o <strong> é um inline.
+-Altere o display do <strong> para block.
+
+
+
+
+Outro exemplo:
+
+-Crie 3 <a> para sites externos
+Por padrão um <a> é inline.
+-Altere o display para block.
+
+
+
+
+Outro exemplo:
+-Crie 2 <h2>
+-Crie uma class css display:none; para esconder elementos (Dê um nome que faz sentido, tipo... hidden)
+-Escreva um comment na css dizendo pra que essa class serve.
+-Dê essa class para um dos <h2>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+displays bastante usados:
+
+display: none;              Esconde um elemento
+
+
+
+display: inline;            Elemento fica na mesma linha. Funciona como se fosse uma palavra. Não têm width nem height.
+
+
+
+display: block;             Pula linha e é criado um block. Têm width e height. Não têm nenhum outro elemento ao lado.
+
+
+
+display: inline-block;      Temos width e height e os elementos ficam na mesma linha.
+
+
+display:flex            APRENDER!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+text-align:;       X      margin: auto;
+
+text-align:;    posiciona texto(inline elements)
+margin: auto;   posiciona block(block elements) 
+
+
+-Crie 1 <div> dentro de outra <div>.
+-Dê uma class para cada <div> (external,internal)
+-Na <div> external 500x500 e coloque um border
+-Na <div> internal 120x120 e coloque um background-color
+-Escreva uma palavra em cada div
+
+Para alterar o conteúdo (display:inline; ou inline-block) eu uso text-align:;
+-Na <div> external teste o text-align:;  em todas as direções (right,left,center)
+-Na <div> internal teste o text-align:;  em todas as direções (right,left,center)
+
+Viu?? Apenas o que é conteúdo sofre alteração.
+
+
+Para alterar a box (display:block;) eu uso o margin:auto;
+margin:auto;
+margin-left:auto;
+margin-right:auto;
+
+-Na <div> internal, teste cada uma delas.
+-Na <div> external, teste cada uma delas.
+
+Percebeu??
+O margin:auto; é em relação a <div> que ele está dentro.
+
+Quando eu dou um margin:auto; na <div> internal, ela vai centralizar dentro do elemento que ele está (.Internal está dentro do elemento .external).
+Quando eu dou um margin:auto; na <div> external, ele vai centralizar dentro do elemento que ele está (Nesse caso, o external está dentro de body).
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+-->

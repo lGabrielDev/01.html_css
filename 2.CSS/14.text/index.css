@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+
+p{
+    text-shadow: 2px 2px 2px tomato;
+    border: 2px solid tomato;
+    box-shadow: 2px 2px 2px tomato;
+}
+
+

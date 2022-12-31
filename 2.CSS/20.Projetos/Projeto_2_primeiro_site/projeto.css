@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-color: lightslategrey;
+
+    text-align: justify;
+    
+}
+
+/*Formatação do header*/
+header{
+    background-color: white;
+    
+
+    padding: 05px 12px 11px 12px;
+
+    margin-bottom: 13px;
+}
+
+
+nav{
+    background-color: grey;
+    color: white;
+
+    padding: 3px 6px 3px 6px;
+
+    font-size:15px;
+}
+
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+}
+
+
+nav > a:hover{
+    text-decoration: underline;
+   
+}
+
+
+
+
+/*Formatação das sections*/
+
+section{
+    background-color: white;
+    
+    padding: 7px 12px 8px 12px;
+}
+
+
+
+
+article{
+    background-color: rgba(189, 184, 184, 0.667);
+    
+
+    font-size:14px;
+    
+}
+
+
+
+article > aside{
+    background-color: grey;
+    color: white;
+    
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+
+
+aside > p{
+    font-size: 13px;
+
+    text-align: left;
+
+    vertical-align: middle;
+
+    padding: 5px;
+}
+
+
+
+
+article > h2{
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+
+
+
+
+
+article > h2,p{
+    padding: 1px 8px 6px 8px;
+    margin-top:1px;
+}
+
+
+
+
+
+/* Separando as duas notícias */
+
+article > p.first_p{
+    margin-bottom:58px;
+}
+
+
+
+
+
+/*rodapé = rodapé */
+
+
+footer{
+    background-color: black;
+    color: white;
+
+    padding: 2px;
+
+    text-align: center;
+    
+}
+
+
+
+
+footer > p {
+    margin-bottom:0px;
+
+    padding: 2px;
+
+    font-size: 12px;
+    font-weight: normal;
+    font-family: monospace;
+}

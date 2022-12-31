@@ -1,0 +1,63 @@
+<!-- 
+Quando colocamos imagens em nossa página, temos que tomar cuidado com o tamanho dela. Ela pode ser acessada por diversos dispositivos (tv,smartphone,computador,table,etc). São tamanhos diferentes de tela.
+
+Imagens,áudio e vídeo podem ser acesados por diferentes dispositivos.
+
+
+
+Digamos que eu queira colocar 3 imagens. (Faça esse exercício na subpata criada "Pratique")
+
+-Primeiro eu pego 3 imagens(Pegue a mesma imagem com tamanhos diferentes)
+-Vou no programa de edição de imagem e altero a largura das 3.(1000/700/300)
+-Agora tenho 3 imagens com tamanhos diferentes.
+
+
+Eu vou usar a tag                           <picture>                 Serve para criar uma imagem dinâmica
+
+Dentro de <picture> eu vou usar a tag       <source>                  Diz qual é a imagem que vai aparecer em determinada largura
+
+
+Como eu quero usar a imagem dinâmica para 3 larguras de tela diferente , eu faço o seguinte:
+Dentro de picture, eu coloco a tag <img> e as <source>
+
+<picture>
+    <source media="(min-width:1000px)" srcset="Imagens/lux_1000.png">
+    <source media="(min-width:700px)" srcset="Imagens/lux_700.png">
+    <img src="Imagens/lux_300.png" alt="Lux league of legends">
+</picture>
+
+
+
+Os principais atributos de <source> são:
+media       
+srcset      Usado para achar a url da imagem
+src         Usado para achar url de vídeo e áudio(Como é imagem, vou usar o srcset).
+type        Não precisa decorar, só pesquisar.
+
+Têm que estar na ordem correta.Da maior para o menor.
+Aqui eu estou dizendo:
+<picture>
+    Se a tela tiver no mínimo 1000px de largura traga essa imagem
+    Se a tela tiver no mínimo 700px de largura traga essa imagem
+    Caso contrário, se for menor que 700, traga a <img.>
+</picture>
+
+Mesmo com todas as <source> eu preciso usar a tag <img>
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinamic Images</title>
+</head>
+<body>
+    <h1>Dinamic Images</h1>
+    <picture>
+        <source media="(min-width:)">
+        <source>
+        <source>
+    </picture>
+</body>
+</html>

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+div.main p:first-child{
+    color: red;
+}
+
+
+a{
+    display: block;
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    display: block;
+    color: orange;
+}
+
+a:hover{
+    display: block;
+    color: red;
+    text-decoration:underline solid blue 2px ;
+    font-size: 17px;
+    background-color: rgba(129, 49, 49, 0.294);
+    width: fit-content;
+    border-radius: 50%;
+}
+
+a:active{
+    color: yellowgreen;
+}

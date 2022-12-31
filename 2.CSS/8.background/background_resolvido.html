@@ -1,0 +1,282 @@
+<!--
+    Background
+CSS background properties (propriedades):
+
+- background-color
+- background-image
+- background-repeat
+- background-attachment
+- background-position
+
+
+O background-size não funciona.
+É só criar uma nova CSS com background-size. Pronto! Easy!
+
+
+
+--------------------------------------------------------------------------------------------------------------------
+background-color
+
+Cor de fundo de um elemento
+
+
+1- Coloque a cor de fundo do <h2>.
+-Use uma cor com predefined name (red,tomate,green,etc...)
+-Troque para uma cor RGB
+-Troque para uma cor HEX
+
+
+
+
+2- Coloque cores diferentes em cada elemento (altere o <p> e o <h2>)
+
+----------------------------------------------------------------------------------------------------------------------
+Opacity / Transparency
+
+Eu posso deixar o background transparente no próprio css. Ao invés de colocar direto na cor, eu crio edito separado.
+
+opacity:
+
+
+1- 
+
+-Crie 3 <h2>
+
+-Mude a cor de cada <h2> e ,separado, coloque opacity.
+
+Como eu quero uma cor para cada <h2> eu preciso definilos com um id.
+
+-Você vai comparar a opacity dos 3.
+-Deixa a opacity de um <h2> transparente
+-Deixa a opacity de um <h2> 50%
+-Deixa a opacity de um <h2> completa
+-Mude a cor do <h2> e separado, coloque opacity.
+
+
+
+
+
+
+Perceba que tudo que está no h2 vai ter transparência, inclusive o que tiver escrito. Se eu quiser apenas o background, eu coloco direto na cor.
+
+Apague para fazer o próximo exercício.
+----------------------------------------------------------------------------------------------------------------------
+
+2- Agora faça a comparação dos 2 modos de colocar opacity.
+
+-Crie 2 <h2>
+-Dê um id ou class para eles.
+-Em um dos elemento você vai colocar o background-color e opacity
+-No outro elemento você vai colocar o backgroun-color e dentro da cor colocar a opacity
+
+
+Viu?
+
+Um deles teve transparência em tudo, inclusive no texto.
+No outro somente no background.
+
+Legal né?
+----------------------------------------------------------------------------------------------------------------------
+
+background-image
+
+Usar uma imagem de fundo em um elemento
+
+
+-Colocando background usando url
+background-image:url()
+
+1- Imagem armazenada no meu pc
+-Pegue uma imagem clean, baixe essa imagem e coloque na mesma pasta(subpasta também funciona).
+-Coloque essa imagem como background de um elemento(<h2>) usando o CTRL+SPACE
+-coloque uma CSS height:250px para ficar mais fácil visualizar.
+
+2- Imagem de outro servidor(página web)
+-Faça o mesmo procedimento, só que com outro elemento. Dessa vez você vai copiar o endereço da imagem de alguma imagem em um site e colar na url.
+Igual vc fez no exercício acima, só que em vez de vc apertar CTRL+SPACE e achar o arquivo na sua máquina, você vai copiar o url e colar apenas.
+
+
+
+Easy, right?
+
+Quando for colocar uma imagem de background, coloque uma imagem clean que não atrapalhe a leitura do texto.
+
+----------------------------------------------------------------------------------------------------------------------
+background-repeat
+Vou dizer se a imagem vai se repetir ou não.
+
+1-
+-Baixe uma imagem pequena para deixar no canto direito da tela. (melhor baixar do que usar a url. Formate no editor de imagem pra ficar bem nice o tamanho)
+-use a CSS background-image e vê p que acontece. Ela se repetiu ne?
+-use a CSS background-repeat: Use todos os tipos de repeat:
+.repeat         repete em pro lado e pra cima
+. repeat-x      repete as imagens horizontalmente
+. repeat-y      repete as imagens verticalmente
+. no-repeat     não repete a imagem.Ela só vai aparecer 1 vez.
+
+Se eu não colocar background-repeat a imagem vai se repetir nas duas direções. Faz o teste. Apague o background-repeat e deixe apenas o background-image.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+background-position
+-use a CSS background-posistion
+background-position:right top;
+
+Posso usar igual no gradiente.
+.top
+.bottom
+.center
+
+E as combinações
+
+.center bottom
+.left top
+.right bottom
+etc...
+----------------------------------------------------------------------------------------------------------------------
+
+O problema é que a imagem está dificultando a leitura do texto.
+Eu preciso deixar ela transparente.
+
+Agora coloque essa imagem no canto superior direito (right top) e coloque opacity.
+
+
+Se eu fazer isso direto, o texto fica transparente e o background não.
+
+Para deixar apenas o background transparente, eu faço:
+Ainda não aprendei. Calma gafanhoto. Não precisa fazer ainda. Jajá vou aprender.
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+background-attachment
+
+
+Aqui eu escolho se a imagem vai se mexer ou não.
+
+fixed         não se movimenta da tela
+scroll        se movimenta conforme eu dou scroll down ou scroll up
+
+Coloque uma imagem de background e teste o background-attachment.
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+background-size
+
+Aqui eu escolho o tamanho da imagem do background.
+
+Posso colocar background-size:
+
+auto                Deixa a imagem do jeito padrão que ela está
+contain             Ajusta a imagem certinha
+cover               Cobre o elemento todo com a imagem centralizada
+px        com 1 valor
+background-size:300px                       Aqui ele coloca a width e o height é feito automaticamente
+
+px        com 2 valores   width height      Aqui eu coloco a width e eu coloco o height
+background-size:300px 300px
+
+
+
+Pegue uma imagem e:
+
+-Crie um <p>
+-Coloque uma propriedade CSS de margem para ficar mais fácil visualizar (margin-right: 400px)
+-Teste cada background-size 
+
+
+----------------------------------------------------------------------------------------------------------------------
+
+
+Colocando 2 imagens ou mais de background
+
+Para colocar 2 imagens ou mais de background, basta eu colocar uma vírgula e criar outro url dentro do background-image. Ficaria assim:
+
+background-image: url(), url()
+
+
+E para fazer a configuração das outras propriedades eu faço assim:
+Digamos que eu coloquei 2 imagens e quero deixar uma em left top e a outra right top:
+
+background-position: right bottom, left top;
+
+Viu?? Coloquei uma vírgula e dale.
+
+Qualquer outra propriedade eu vou fazer a mesma coisa
+
+background-attachment:fixed,fixed;
+
+etc....
+
+
+Exercício:
+
+Coloque 2 imagens como background em um <p>.  Use o lorem para fazer um <p> grande.
+-Deixe uma right top e a outra left top.
+
+-Crie um comentário no style dizendo quais são as imagens que vc colocou no background.
+
+Use todos as propriedades aprendidas acima.
+
+----------------------------------------------------------------------------------------------------------------------
+CSS Background Shorthand (abreviação/forma simplificada de escrever)
+Eu posso deixar meu código mais clean usando abreviação.
+Vou usar apenas a propriedade 
+background:
+
+Dentro de background eu posso colocar todas as outras propriedades css de background.
+
+
+Antes, vamos fazer da forma antiga:
+
+1-
+-Dê um id para um <p>
+-Coloque uma imagem qualquer de background em um <p> , usando o background-image
+-Ajuste certinho como você quiser, usando as propriedades css que vc aprendeu acima.
+
+background-image:url(https://cdn-icons-png.flaticon.com/512/1193/1193012.png);
+background-size:contain;
+background-repeat:no-repeat;
+background-position:top right;
+
+
+
+Ok, ficou organizado mas tem muitas linhas.
+
+
+-Apague todas as CSS proprieties
+
+2-Agora vamos colocar todas essas propriedades em uma única.
+
+Importante lembrar que você precisa seguir essa ordem:
+
+background-color
+background-image
+background-repeat
+background-attachment
+background-position
+
+Se não tiver uma das propriedades, é só não colocar. Mas a ordem têm que ser essa senão, não vai funcionar.
+
+
+
+Vamos pra borders!
+----------------------------------------------------------------------------------------------------------------------
+
+ -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background</title>
+
+</head>
+<body>
+    <h2>Título 1</h2>
+    <p id="p_1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique modi numquam adipisci ipsam reiciendis inventore facere. Exercitationem voluptatum beatae nihil soluta nadipisiLorem ipsum dolor sit, amet consectetur adipisicing elit. Similique modi numquam adipisci ipsam reiciendis inventore facere. Exercitationem voluptatum beatae nihil soluta non, sequi unde numquam nemo sint incidunt voluptate quod. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique modi numquam adipisci ipsam reiciendis inventore facere. Exercitationem voluptatum beatae nihil soluta non, sequi unde numquam nemo sint incidunt voluptate quod. Lorem ipsu</p>
+
+</body>
+</html>

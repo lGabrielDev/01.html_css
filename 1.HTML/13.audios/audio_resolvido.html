@@ -1,0 +1,53 @@
+<!--
+Colocando áudios.
+Para colocar áudio usamos a tag <audio>
+
+Os principais parâmetros são:
+
+autoplay    Play automático
+controls    Mostra o controle(volume,pause,etc)
+loop        A música se repete infinitamente.
+
+
+
+Os formatos de áudio mais usados são:
+audio/ogg
+audio/mpeg
+
+Alguns navegadores não aceitam o formato mp3. Então, precisamos fazer um <source> para trazer outros formatos. Caso o navegador do usuário não aceite mp3 ele vai rodar em outro formato.
+O <source> serve para trazer múltiplas imagens, nesse caso áudio, para a página.Se uma não funcionar, tente o outro formato, assim por diante.
+
+Exercícios:
+
+1-Coloque um áudio simples(uma música).
+
+2-Agora coloque a mesma música em diferentes formatos.
+Note, que na tag <audio> eu coloco apenas os parametros 'autoplay', 'controls'. O parâmetro 'src' eu uso na tag <source>.
+
+A tag source no áudio funciona assim:
+De cima pra baixo , o navegador vai tentar reproduzir o áudio. Se na primeira opção(.mp3) não conseguir, vai para a de baixo(.ogg) e assim por diante. 
+
+Crie um parágrafo dentro de audio dizendo que caso o navegador do usuário não reproduza o áudio em nenhum dos formatos, disponha um download para ele usando a tag <a>.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudios</title>
+</head>
+<body>
+    <h1>Áudios</h1>
+    <p>Aqui, aprenderemos a colocar áudio na página.</p>
+    <h2>Formato mp3</h2>
+    <audio src="musicas/Dua Lipa - Love Again (Official Music Video).mp3" autoplay controls loop></audio>
+    <h2>Vários formatos</h2>
+    <audio autoplay controls>
+        <source src="musicas/Dua Lipa - Love Again (Official Music Video).mp3" type="audio/mpeg">
+        <source src="musicas/Dua Lipa - Love Again (Official Music Video).ogg" type="audio/ogg">
+        <p>Infelizmente seu navegador não consegue reproduzir a música. Tente acessar por outro navegador<br>
+        ou baixe a música clicando <a href="musicas/Dua Lipa - Love Again (Official Music Video).mp3" download>aqui</a></p>
+    </audio>
+</body>
+</html>
