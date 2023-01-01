@@ -17,7 +17,7 @@ Os dois tipos de elementos fazem a mesma coisa, a diferença é na leitura do c�
 
 ## Entendendo os elementos semânticos
 O elementos semânticos mais usados são esses:
-<img src="https://miro.medium.com/max/640/1*zHJFnu7QF-PgUb8108aLcA.webp" alt="semantic html image" width="500px">
+<img src="https://1.bp.blogspot.com/-koPDB__CnsU/Wobo6SpFXSI/AAAAAAAABTc/LR0ZB--5dJEpzLw7FHqzG-Fcep5FuO-qACLcBGAs/s1600/head%2Band%2Bfooter.jpg" alt="semantic html image" width="500px">
 
 <br>
 
@@ -64,6 +64,7 @@ Rodapé da section/article.
 <br>
 
 :bulb: As vezes, não vai ter um elemento semântico para usar. Nesses casos, vamos usar a `<div>` mesmo.
+
 <br>
 <br>
 
