@@ -15,7 +15,7 @@ Tipos de positions:
 
 - `absolute` --> Movimentamos o elemento respeitando seu pai. Esse pai precisa ter position relative.
 
-Quando setamos a propriedade position para `relative` or `absolute`, desbloqueamos algumas properties:
+Quando setamos a propriedade position para `relative` or `absolute` or `fixed`, desbloqueamos algumas properties:
 
 - `top` --> Se afasta do topo tantos px.
 - `right` --> Se afasta do lado direito tantos px.
@@ -26,7 +26,7 @@ Quando setamos a propriedade position para `relative` or `absolute`, desbloqueam
 
 <br>
 
-:pencil2: Crie uma `<div>` pai e uma `<div>` filho para praticar. Manipule o filho e o coloque em todas as posicoes: <br>
+:pencil2: Crie uma `<div>` pai "container" e uma `<div>` filho "caixinha" para praticar. Manipule o filho e o coloque em todas as posicoes: <br>
 
 <img src="./position_example.png" alt="image position example" width="600px">
 
@@ -63,19 +63,19 @@ body{
     height: 200px;
     position: absolute;
     /* 
-    posicionandno no canto superior direito
+    posicionando no canto superior direito
     top: 0px;
     right: 0px;
 
-    posicionandno no canto inferior direito
+    posicionando no canto inferior direito
     bottom: 0px;
     right: 0px;
 
-    posicionandno no canto inferior esquerdo
+    posicionando no canto inferior esquerdo
     left: 2px;
     bottom: 3px;
 
-    posicionandno no canto superior esquerdo
+    posicionando no canto superior esquerdo
     top: 0px;
     left: 2px;
      */
