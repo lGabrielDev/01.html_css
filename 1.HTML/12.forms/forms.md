@@ -230,7 +230,7 @@ Existem vários outros tipos de input. Não precisa aprender todos... Quando pre
 - `<input type="url">`
 - `<input type="week">`
 
-[Consulta](https://www.w3schools.com/html/html_form_attributes.asp)
+<a href="https://www.w3schools.com/html/html_form_attributes.asp" target="_blank">consulta</a>
 
 <!-- Next page button-->
 <a href="https://github.com/lGabrielDev/01.html_css/blob/main/2.CSS/0.introduction/introduction.md">
