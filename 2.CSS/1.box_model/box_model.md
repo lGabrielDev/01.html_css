@@ -3,16 +3,17 @@
     <img src="https://cdn-icons-png.flaticon.com/512/4327/4327005.png" alt="html icon" width="90px" align="center" >
 </h1>
 
-Todo element tem um box model, contendo:
+Todo element tem um box model, contendo: <br>
+
 <img src="https://miro.medium.com/max/640/1*sKnLrT1TtqWDZg7GWoBCow.webp" alt="box model iamge" width="350px" align="center">
 
-- margin --> Área de fora da borda. Distância entre os elements.
+- `margin` --> Área de fora da borda. Distância entre os elements.
 
-- border --> Borda ao redor do padding e do content.
+- `border` --> Borda ao redor do padding e do content.
 
-- padding --> Espaçamento entre a borda e o conteudo
+- `padding` --> Espaçamento entre a borda e o conteudo
 
-- content --> conteúdo do elemento (texto,images,etc...)
+- `content` --> conteúdo do elemento (texto,images,etc...)
 
 <hr>
 <br>
@@ -25,7 +26,7 @@ Todo element tem um box model, contendo:
 
 Com essa shorthand, definimos as properties:
 1. `border-width`
-2. `border-style (required)`
+2. `border-style`
 3. `border-color`
 
 ```css
