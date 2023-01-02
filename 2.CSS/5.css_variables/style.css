@@ -1,0 +1,10 @@
+/* variables de cores */
+:root{
+    --textoPadrao: #2D4262;
+    --backgroundPadrao: #D09683;
+}
+
+p.destaque{
+    color: var(--textoPadrao);
+    background-color: var(--backgroundPadrao);
+}
