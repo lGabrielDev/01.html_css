@@ -55,7 +55,7 @@ h2{text-align: center;}
 <br>
 <br>
 
-## Estilizando multiple elements
+### Estilizando multiple elements
 ```css
 h2, div, p{
     text-align: center;
@@ -110,19 +110,6 @@ div.p_destacados{
 /* Vamos estilizar todas as <div> que tiverem a class tal */
 ```
 
-<br>
-<br>
-
-## Estilizando os elementos filhos de um element
-```css
-div > p.p_destacados{
-    border: 2px solid tomato;
-    width: 200px;
-    height: 200px;
-    text-align: center;
-}
-/* Dentro do element <div>, vamos estilizar todos os elements <p> que tiverem a class tal */
-```
 <hr>
 <br>
 

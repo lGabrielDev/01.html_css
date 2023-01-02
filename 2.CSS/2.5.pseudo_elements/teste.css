@@ -1,7 +1,0 @@
-@charset "UTF-8";
-
-
-p.primeirin::after{
-content:" Aparece depois.";
-display: block;
-}

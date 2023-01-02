@@ -1,7 +1,0 @@
-@charset "UTF-8";
-
-div.gradiente{
-    height: 200px;
-    border: 2px solid black;
-    background-image: repeating-linear-gradient(to top left, tomato ,yellow 70%,rgb(32, 102, 81,55%),black,grey 80%);
-}
