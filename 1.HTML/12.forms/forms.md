@@ -166,7 +166,7 @@ Existem vários tipos de input...
     <input type="submit" value="Enviar">
 </form>
 ```
-:warning: O valor do attribute `name` de todos os radio inputs precisam ser igual.
+:warning: O valor do attribute `name` de todos os radio inputs precisam ser iguais.
 
 <br>
 <br>

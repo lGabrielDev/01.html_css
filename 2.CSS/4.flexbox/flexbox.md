@@ -111,12 +111,19 @@ Alinha os items que quebraram a página no eixo secundário.
 :bulb:Agora fica fácil centralizar os items na página. Basta usar o flexbox bolado!
 
 ```css
-.container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    /* Easy! */
+*{
+    margin: 0px;
+    padding:0px;
 }
+
+body{
+    width: 100vw;  /* vw --> viewport width* -- O body vai ocupar toda a width da tela */
+    height: 100vh; /* vh --> viewport height -- O body vai ocupar toda o height da tela */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    /* Easy! */
 ```
 
 <!-- Next page button-->
