@@ -86,3 +86,4 @@ O inline element mais conhecido é o `<span>`. Geralmente usamos ele para estili
 <a href="https://github.com/lGabrielDev/01.html_css/blob/main/1.HTML/9.class/html_class.md">
     <img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">
 </a>
+

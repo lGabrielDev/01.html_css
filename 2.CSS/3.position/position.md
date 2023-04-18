@@ -170,6 +170,6 @@ Os elementos que não queremos que aparecam, vamos colocar `z-index: -1;`. Aí �
 <br>
 <br>
 
-<a href="https://github.com/lGabrielDev/01.html_css/blob/main/2.CSS/4.flexbox/flexbox.md">
+<a href="https://github.com/lGabrielDev/01.html_css/tree/main/2.CSS/4.flexbox">
     <img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">
 </a>
