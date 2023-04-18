@@ -117,7 +117,7 @@ Alinha os items que quebraram a página no eixo secundário.
 }
 
 body{
-    width: 100vw;  /* vw --> viewport width* -- O body vai ocupar toda a width da tela */
+    width: 100vw;  /* vw --> viewport width -- O body vai ocupar toda a width da tela */
     height: 100vh; /* vh --> viewport height -- O body vai ocupar toda o height da tela */
     display: flex;
     justify-content: center;
@@ -125,6 +125,10 @@ body{
 }
     /* Easy! */
 ```
+
+<br>
+
+Pratique jogando <a href="https://flexboxfroggy.com/"><img src="https://cdn.iconscout.com/icon/free/png-512/frog-face-animal-aquatic-33968.png?f=avif&w=256" alt="froggy icon" width="60px" align="center"></a> <img src="https://files.softicons.com/download/web-icons/stock-web-icons-by-snap2objects/png/128/arrow2.png" alt="arrow icon" width="60px" align="center"> 
 
 <!-- Next page button-->
 <br>

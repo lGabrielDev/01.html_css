@@ -6,7 +6,7 @@
 Para usar uma image, basta usarmos a tag `<img>`. Essa tag sempre vêm acompanhada dos attributes `src` and `alt`
 
 - `src` --> source. Qual a fonte em que essa imagem está.
-- `alt` --> Valor alternativo. Se essa imagem por algum motivo não aparecer, será mostrado esse textinho.
+- `alt` --> Valor alternativo. Se essa imagem por algum motivo não aparecer, será mostrado esse textinho. Serve como acessibilidade para pessoas com problemas visuais.
 
 ```html
 <img src="https://cdn-icons-png.flaticon.com/512/2659/2659360.png" alt="ícone de uma fotografia">
@@ -50,6 +50,29 @@ A faveicon é o ícone que aparece na aba da sua página.
 </html>
 ```
 :bulb: Use a IDE (vsCode) a seu favor. Escreva `link` e dale.
+
+
+<hr>
+<br>
+
+<h2>Diferença entre PNG e JPGE</h2>
+
+
+**JPGE**
+- Arquivo mais leve.
+- Não possui transparência.
+- Qualidade não é tão boa.
+
+
+
+**PNG**
+- Arquivo mais pesado.
+- Permite transparência.
+- Qualidade é melhor quando damos zoom.
+
+<br>
+
+⚠️ Atenção com o direito de imagem. Trabalhe sempre com images com permissão de utilização.
 
 
 <br>

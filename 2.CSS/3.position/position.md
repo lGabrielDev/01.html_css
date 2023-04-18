@@ -161,6 +161,10 @@ Os elementos que não queremos que aparecam, vamos colocar `z-index: -1;`. Aí �
     z-index: -1; /* Não vai aparecer */
 }
 ```
+
+<br>
+
+💡 O z-index é bom quando queremos esconder algum elemento. Imagine várias imagens no mesmo lugar/posicao. Você pode esconder todas elas com o `z-index="-1"` e deixar apenas 1 das imagens aparecendo. Sacou? Imagina as possibilidades, utilizando JavaScript.
   
 <!-- Next page button-->
 <br>

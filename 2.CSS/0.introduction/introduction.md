@@ -5,7 +5,7 @@
 
 CSS --> Cascading Style Sheets (Folhas de estilo em cascata)
 
-Usamos CSS para estilizar nossas páginas.
+Usamos o CSS para estilizar nossas páginas.
 
 <br>
 

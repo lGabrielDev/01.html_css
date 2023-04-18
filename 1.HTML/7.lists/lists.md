@@ -1,5 +1,5 @@
 <h1 align="center">
-    Block and Inline Elements
+    Lists
     <img src="https://cdn-icons-png.flaticon.com/512/7661/7661868.png" alt="html icon" width="90px" align="center" >
 </h1>
 

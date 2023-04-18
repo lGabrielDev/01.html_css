@@ -17,7 +17,7 @@ Todas as fontes derivam de 3 fontes genéricas:
 
 Para mudar a fonte de um texto, vamos usar a property `font-family.`
 
-:warning: Além da fonte que você quer utilizar, coloque também uma font genérica (serif,sans-serif,monospace). Assim, se por algum motivo sua fonte não funcionar, usamos as genéricas.
+:warning: Além da fonte que você quer utilizar, coloque também uma font genérica (serif,sans-serif, monospace). Assim, se por algum motivo sua fonte não funcionar, usamos as genéricas.
 
 ```css
 .p1 {
@@ -44,7 +44,7 @@ Se não conseguir ler a primeiro fonte, rode a segunda fonte... Se não consegui
 ## font properties
 
 - `font-family` --> Define qual vai ser a font.
-- `font-weight` --> Define o peso da font(bold,normal,300,etc...). Cada fonte tem alguns pesos.
+- `font-weight` --> Define o peso da font(bold,normal,300,etc...). Uma fonte pode ter vários pesos.
 - `font-size` --> Define o tamanho da font.
 
 <hr>

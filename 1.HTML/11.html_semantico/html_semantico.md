@@ -16,7 +16,9 @@ Os dois tipos de elementos fazem a mesma coisa, a diferença é na leitura do c�
 <br>
 
 ## Entendendo os elementos semânticos
+
 O elementos semânticos mais usados são esses:
+
 <img src="https://1.bp.blogspot.com/-koPDB__CnsU/Wobo6SpFXSI/AAAAAAAABTc/LR0ZB--5dJEpzLw7FHqzG-Fcep5FuO-qACLcBGAs/s1600/head%2Band%2Bfooter.jpg" alt="semantic html image" width="500px">
 
 <br>
@@ -34,7 +36,7 @@ Conteúdo independente. Podemos ter várias `<section>` dentro desse artigo.
 <br>
 
 ### `<header>`
-Conteúdo introdudório de um section/article. Geralmente possui um heading (`<h2>`,`<h3>`,etc..) e navegation links (`<nav>`).
+Conteúdo introdutório de um section/article. Geralmente possui um heading (`<h2>`,`<h3>`,etc..) e navegation links (`<nav>`).
 ```html
 <body>
     <header>
