@@ -108,6 +108,7 @@ Aqui, tratamos primeiro com as **telas maiores** e depois tratamos as menores.
 
 ## Especificando ainda mais o display/tela
 
+
 ```css
 /* Telas de 300px a 500px */
 @media screen and (min-width:300px) and (max-width:500px) {
