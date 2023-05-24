@@ -107,6 +107,4 @@ Perceba que o último `<p>` sofreu as duas formatações. Isso, porque ele perte
 <br>
 
 <!-- Next page button-->
-<a href="https://github.com/lGabrielDev/01.html_css/blob/main/1.HTML/10.html_id/id.md">
-    <img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">
-</a>
+[<img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">](../10.html_id/id.md)

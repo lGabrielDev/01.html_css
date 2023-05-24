@@ -50,3 +50,9 @@ p.destaque{
 }
 ```
 
+
+<br>
+<br>
+
+<!-- Next page button-->
+[<img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">](../6.media_query_responsividade/media_query_responsividade.md)

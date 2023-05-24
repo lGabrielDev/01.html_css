@@ -59,6 +59,4 @@ Basta linkarmos através do `id` do elemento.
 <br>
 
 <!-- Next page button-->
-<a href="https://github.com/lGabrielDev/01.html_css/blob/main/1.HTML/5.images/images.md">
-    <img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">
-</a>
+[<img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">](../5.images/images.md)

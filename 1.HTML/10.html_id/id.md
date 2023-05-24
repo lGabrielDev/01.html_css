@@ -40,6 +40,4 @@ Quando queremos estilizar apenas um element específico, ou quando queremos muda
 <br>
 
 <!-- Next page button-->
-<a href="https://github.com/lGabrielDev/01.html_css/blob/main/1.HTML/11.html_semantico/html_semantico.md">
-    <img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">
-</a>
+[<img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">](../11.html_semantico/html_semantico.md)

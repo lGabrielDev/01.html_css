@@ -130,10 +130,9 @@ body{
 
 Pratique jogando <a href="https://flexboxfroggy.com/"><img src="https://cdn.iconscout.com/icon/free/png-512/frog-face-animal-aquatic-33968.png?f=avif&w=256" alt="froggy icon" width="60px" align="center"></a> <img src="https://files.softicons.com/download/web-icons/stock-web-icons-by-snap2objects/png/128/arrow2.png" alt="arrow icon" width="60px" align="center"> 
 
-<!-- Next page button-->
+
 <br>
 <br>
 
-<a href="https://github.com/lGabrielDev/01.html_css/blob/main/2.CSS/5.css_variables/css_variables.md">
-    <img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">
-</a>
+<!-- Next page button-->
+[<img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">](../5.css_variables/css_variables.md)

@@ -166,10 +166,9 @@ Os elementos que não queremos que aparecam, vamos colocar `z-index: -1;`. Aí �
 
 💡 O z-index é bom quando queremos esconder algum elemento. Imagine várias imagens no mesmo lugar/posicao. Você pode esconder todas elas com o `z-index="-1"` e deixar apenas 1 das imagens aparecendo. Sacou? Imagina as possibilidades, utilizando JavaScript.
   
-<!-- Next page button-->
+
 <br>
 <br>
 
-<a href="https://github.com/lGabrielDev/01.html_css/blob/main/2.CSS/4.flexbox/flexbox.md">
-    <img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">
-</a>
+<!-- Next page button-->
+[<img src="https://cdn-icons-png.flaticon.com/512/5553/5553581.png" alt="next button icon" width="60px" align="right">](../4.flexbox/flexbox.md)
