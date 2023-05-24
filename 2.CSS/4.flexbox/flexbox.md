@@ -84,7 +84,7 @@ Se os items forem maior que o container, usamos o `flex-wrap` para movê-los par
 <br>
 
 ## align-content
-Alinha os items que quebraram a página no eixo secundário.
+Alinha os items que quebraram  no flex-wrap. O `align-content` só dá pra usar, quando usamos o flex-wrap.
 
 - `justify-content: center` --> centraliza no eixo secundário.
 - `justify-content: flex-start` --> no começo do eixo secundário.
@@ -92,7 +92,7 @@ Alinha os items que quebraram a página no eixo secundário.
 - `justify-content: space-around` --> space ao redor dos items. Como se tivesse uma margin ao redor.
 - `justify-content: space-between;` --> space somente entre os items.
 
-:warning: Atenção! Dependendo do eixo principal, as propriedades vão inverter.
+Basicamente, usamos o `align-content` para alinhar os elementos que quebraram no flex-wrap.
 
 <hr>
 <br>
