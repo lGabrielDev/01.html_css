@@ -104,7 +104,10 @@ Basicamente, usamos o `align-content` para alinhar os elementos que quebraram no
 3. Alinhamos o eixo principal com o `justify-content`.
 4. Alinhamos o eixo secundário com o `align-items`.
 5. Quebramos os items que estão expremidos com o `flex-wrap`.
-6. Alinhamos esses items que quebraram  com o `align-content`.
+6. Alinhamos os items que quebraram no  `flex-wrap` com o `align-content`.
+
+Se quisermos alinhar um elemento sozinho, usamos o `align-self`.
+
 
 <br>
 
