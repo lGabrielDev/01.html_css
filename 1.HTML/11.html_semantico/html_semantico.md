@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    HTML semântico
+    <span>HTML semântico</span>
     <img src="https://cdn-icons-png.flaticon.com/512/3447/3447692.png" alt="html icon" width="90px" align="center" >
 </h1>
  
@@ -12,6 +13,7 @@
 - `semantic` --> `<form>`, `<table>` , `<article>` , `<nav>`, etc... 
 
 Os dois tipos de elementos fazem a mesma coisa, a diferença é na leitura do código que fica mais fácil.
+
 <hr>
 <br>
 
@@ -21,18 +23,14 @@ O elementos semânticos mais usados são esses:
 
 <img src="https://1.bp.blogspot.com/-koPDB__CnsU/Wobo6SpFXSI/AAAAAAAABTc/LR0ZB--5dJEpzLw7FHqzG-Fcep5FuO-qACLcBGAs/s1600/head%2Band%2Bfooter.jpg" alt="semantic html image" width="500px">
 
-<br>
-
 ### `<section>`
 São seções da minha página. 
 
-<br>
 <br>
 
 ### `<article>`
 Conteúdo independente. Podemos ter várias `<section>` dentro desse artigo.
 
-<br>
 <br>
 
 ### `<header>`
@@ -52,12 +50,10 @@ Conteúdo introdutório de um section/article. Geralmente possui um heading (`<h
 ```
 
 <br>
-<br>
 
 ### `<nav>`
 Bloco de links de navegação. Por exemplo, o menu da sua page.
 
-<br>
 <br>
 
 ### `<footer>`
@@ -65,7 +61,7 @@ Rodapé da section/article.
 
 <br>
 
-:bulb: As vezes, não vai ter um elemento semântico para usar. Nesses casos, vamos usar a `<div>` mesmo.
+💡 As vezes, não vai ter um elemento semântico para usar. Nesses casos, vamos usar a `<div>` mesmo.
 
 <br>
 <br>

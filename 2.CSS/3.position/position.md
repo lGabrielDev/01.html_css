@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    positions
+    <span>positions</span>
     <img src="https://cdn-icons-png.flaticon.com/512/3162/3162255.png" alt="html icon" width="90px" align="center" >
 </h1>
 
@@ -22,17 +23,17 @@ Quando setamos a propriedade position para `relative` or `absolute` or `fixed`, 
 - `bottom` --> Se afasta do bottom tantos px.
 - `left` --> Se afasta do lado esquerdo tantos px.
 
-:warning: Não dá para usar as properties(top,right,bottom,left) se o position do element for `static`.
+⚠️ Não dá para usar as properties(top,right,bottom,left) se o position do element for `static`.
 
 <br>
 
-:pencil2: Crie uma `<div>` pai "container" e uma `<div>` filho "caixinha" para praticar. Manipule o filho e o coloque em todas as posicoes: <br>
+✏️ Crie uma `<div>` pai "container" e uma `<div>` filho "caixinha" para praticar. Manipule o filho e o coloque em todas as posicoes: <br>
 
 <img src="./position_example.png" alt="image position example" width="600px">
 
 <br>
 
-:warning: Quando colocamos position `absolute` em um elemento, ele vai se movimentar respeitando o pai mais próximo que tiver position `relative`. Se não tiver nenhum elemento pai com position `relative`, o elemento filho vai respeitar o elemento `body`. Isso porque o elemento `body` já vêm setado por padrão como position `relative`. Então... Sempre coloque o elemento pai com position `relative`.
+⚠️ Quando colocamos position `absolute` em um elemento, ele vai se movimentar respeitando o pai mais próximo que tiver position `relative`. Se não tiver nenhum elemento pai com position `relative`, o elemento filho vai respeitar o elemento `body`. Isso porque o elemento `body` já vêm setado por padrão como position `relative`. Então... Sempre coloque o elemento pai com position `relative`.
 
 ```html
 <body>
@@ -83,7 +84,7 @@ body{
 ```
 Perceba que nós movimentamos o eixo x -> e o eixo y ^ . Por isso, usamos apenas 2 properties.
 
-:bulb: É possível trabalhar com valores negativos também (top:-50px, bottom:-13px,etc..).
+💡 É possível trabalhar com valores negativos também (top:-50px, bottom: -13px,etc..).
 <hr>
 <br>
 
@@ -94,7 +95,7 @@ Os elementos que não queremos que aparecam, vamos colocar `z-index: -1;`. Aí �
 
 <br>
 
-:pencil2: 
+✏️ 
 
 - Crie uma div pai "container" e 3 divs filhas "caixinha1", "caixinha2","caixinha3".
 - Deixe cada caixinha de uma cor diferente, para facilitar a visualização.
@@ -165,6 +166,16 @@ Os elementos que não queremos que aparecam, vamos colocar `z-index: -1;`. Aí �
 <br>
 
 💡 O z-index é bom quando queremos esconder algum elemento. Imagine várias imagens no mesmo lugar/posicao. Você pode esconder todas elas com o `z-index="-1"` e deixar apenas 1 das imagens aparecendo. Sacou? Imagina as possibilidades, utilizando JavaScript.
+
+O maior valor é o que vai aparecer. Exemplo:
+
+``` css
+.caixinha1{ z-index: 2; }
+
+.caixinha2{ z-index: 30; } /* Essa é a caixinha que vai aparecer */
+
+.caixinha3{ z-index: 2; }
+```
   
 
 <br>

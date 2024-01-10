@@ -1,18 +1,19 @@
+<!-- title -->
 <h1 align="center">
-    HTML Links - Hyperlinks <strong>&lt;a&gt;</strong>
+    <span>HTML Links - Hyperlinks <strong>&lt;a&gt;</strong></span>
     <img src="https://cdn-icons-png.flaticon.com/512/2696/2696513.png" alt="html icon" width="90px" align="center" >
 </h1>
 
-Um link serve para irmos para outra página.
+Um link serve para redirecionar para outra página html.
 
-<br>
+
 
 ## Syntax <img src="https://cdn-icons-png.flaticon.com/512/1442/1442581.png" alt="curly braces icon" width="30px" align="center">
 ```html
 clique <a href="https://google.com.br"> aqui </a>
 ```
 
-:bulb: Perceba que o elemento `<a>` vem sempre acompanhado do attribute `href`, que é o caminho da página que vamos ser redirecionados.
+💡 Perceba que o elemento `<a>` vem sempre acompanhado do attribute `href`, que é o caminho da página que vamos ser redirecionados.
 
 <hr>
 <br>

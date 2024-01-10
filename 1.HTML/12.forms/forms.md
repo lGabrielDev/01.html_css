@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    Formulários - &lt;form&gt;
+    <span>Formulários - &lt;form&gt;</span>
     <img src="https://cdn-icons-png.flaticon.com/512/3273/3273589.png" alt="html icon" width="90px" align="center" >
 </h1>
 
@@ -14,7 +15,7 @@ Um formulário é usado para coletar o input de dados de um usuário. Os element
 - `<input>` --> Input do usuário. Existem vários tipos de input.
 
 
-:pencil2: Faça um formulário simples, onde o usuário vai inputar seu "first name".
+✏️ Faça um formulário simples, onde o usuário vai inputar seu "first name".
 
 ```html
 <form action="arquivo_para_armazenar">
@@ -28,7 +29,7 @@ Um formulário é usado para coletar o input de dados de um usuário. Os element
 
 - Perceba que o element `<label>` têm sempre um `for` attribute que é vinculado ao `id` attribute do input. Assim, criamos uma conexão do input com a label.
 
-:warning: Obviamente, o valor desse `for` attribute têm que ser igual ao valor do `id` attribute do input.
+⚠️ Obviamente, o valor desse `for` attribute têm que ser igual ao valor do `id` attribute do input.
 
 
 <br>
@@ -41,12 +42,14 @@ Vamos entender os attributes de cada elemento.
 ## `<form>`
 QUando estamos preenchendo um formulário, esses dados vão para algum lugar...
 
-- `action` --> define o local para onde os dados desse input vãos ser armazenados. 
+- `action` --> define o local para onde os dados desse input vãos ser armazenados. Podendo ser enviados para um endpoint HTTP ou para um arquivo html.
+
 ```html
 <form action="arquivo1.txt"> 
 
 </form>
 ```
+
 <br>
 <hr>
 
@@ -66,11 +69,14 @@ Fizemos uma conexão da label com o input.
 ## `<input>`
 Elemento usado para o usuário inputar dados.
 
+Sempre que o usuário está preenchendo algum formulário, ele está basicamente "escrevendo um objeto JSON" que será enviado.
+
+Entao, cada **input** seria um attribute desse objeto JSON que será enviado.
+
 - `<type>` --> Tipo de input (radio button, text, submit, etc...)
-- `<name>` --> Obrigatório colocar
+- `<name>` --> Nome do attribute do objeto JSON que será enviado.
 - `<id>` --> identificador padraozin de cada element.
 
-:warning: O attribute name and id precisam ser iguais. Se não colocar o attribute `<name>` vai dar ruim.
 
 <br>
 <hr>
@@ -145,7 +151,7 @@ Existem vários tipos de input...
 
 - Todo `input` element sempre vêm acompanhado dos attributes `name` and `id`.
 
-:bulb: Use a ide (vsCode) a seu favor. `Input`...
+💡 Use a ide (vsCode) a seu favor. `Input`...
 
 <br>
 <br>
@@ -166,28 +172,33 @@ Existem vários tipos de input...
     <input type="submit" value="Enviar">
 </form>
 ```
-:warning: O valor do attribute `name` de todos os radio inputs precisam ser iguais.
+⚠️ O valor do attribute `name` de todos os radio inputs precisam ser iguais. Até porque, estamos falando do mesmo attribute do objeto JSON que será enviado.
 
 <br>
 <br>
 
 ## `<input type="checkbox">`
 ```html
-<p>Escolha os produtos que deseja comprar:</p>
-<form action="arquivoParaSalvarInput">
-    <!-- Produto 1 -->
-    <input type="checkbox" name="pizza" id="pizza">
-    <label for="pizza">Pizza</label> <br>
-    <!-- Produto 2 -->
-    <input type="checkbox" name="agua" id="agua">
-    <label for="agua">Água</label> <br>
-    <!-- Produto 3 -->
-    <input type="checkbox" name="salgadinho" id="salgadinho">
-    <label for="salgadinho">Salgadinho</label> <br>
+<p>Things to buy:</p>
+<form action="#">
+    <!-- product 1 -->
+    <label for="skate_input">Skate</label>
+    <input id="skate_input" type="checkbox" name="skate">
+    <!-- product 2 -->
+    <label for="pc_input">PC</label>
+    <input id="pc_input" type="checkbox" name="pc">
+    <!-- product 3 -->
+    <label for="headphone_input">Headphone</label>
+    <input id="headphone_input" type="checkbox" name="headphone">
     <!-- submit button -->
-    <input type="submit" value="Enviar">
+    <input type="submit" value="Send">
 </form>
 ```
+Quando voce esta preenchendo um formulario que possua um checkbox [X], voce esta dizendo se aquele attribute vai receber um value true or false. 
+
+Lembre-se, sempre que estamos preenchendo um form, estamos criando um objeto JSON para ser enviado. Portanto, os attributes desse formulario que forem do type "**checkbox**", possuem os valores booleans.
+
+
 
 <br>
 <br>

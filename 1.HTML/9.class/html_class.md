@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    class attribute
+    <span>class attribute</span>
     <img src="https://cdn-icons-png.flaticon.com/512/1357/1357616.png" alt="html icon" width="90px" align="center" >
 </h1>
 
@@ -21,7 +22,7 @@ O character que representa o attribute "class" é `.`
 ## Formatando todos os elementos da mesma class
 ### Exemplo 1:
 
-:pencil2: Crie 3 `<div>` e adicione a mesma classe pra elas. Depois, faça uma estilização no css através da class que elas têm em comum.
+✏️ Crie 3 `<div>` e adicione a mesma classe pra elas. Depois, faça uma estilização no css através da class que elas têm em comum.
 
 ```html
 <body>
@@ -54,7 +55,7 @@ Viu?? Todos os elements da class "div_destacada" sofreram alteração. Quando qu
 
 ## Exemplo 2:
 
-:pencil2: Crie um `<p>` com uma frase grande. Formate alguma palavras utilizando o elemento `<span>`. Como queremos a mesma formatação, vamos estilizar através da class.
+✏️ Crie um `<p>` com uma frase grande. Formate alguma palavras utilizando o elemento `<span>`. Como queremos a mesma formatação, vamos estilizar através da class.
 
 ```html
 <body>
@@ -78,7 +79,7 @@ Se ligou?? Estamos formatando todos os elements `<span>` que tenham a class "pal
 ## Multiple classes
 Um elemento pode receber mais de uma class
 
-:pencil2: Crie 2 classes:
+✏️ Crie 2 classes:
 - Uma class para estilizar a cor do elemento
 - Uma class para aumentar a fonte do elemento
 

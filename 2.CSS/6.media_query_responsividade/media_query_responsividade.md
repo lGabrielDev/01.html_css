@@ -1,11 +1,11 @@
+<!-- title -->
 <h1 align="center">
     <span>@Media Query - Responsividade</span>
     <img src="https://img.icons8.com/?size=512&id=KttbKzBn2Ndi&format=png" alt="displays icons" width="140px" align="center">
 </h1>
 
 
-Media queries são usados para estilizar nossa página HTML em diferentes telas/displays de dispositivos (celular, table, computador, tv).
-
+Media queries são usados para estilizar nossa página HTML em diferentes telas/displays de dispositivos (celular, tablet, computador, tv, etc...).
 
 <br>
 <hr>
@@ -134,7 +134,6 @@ Aqui, tratamos primeiro com as **telas maiores** e depois tratamos as menores.
 
 - Se você comecou com `max-width`, trate primeiro as telas grandes.
 
-
 <br>
 <hr>
 
@@ -150,7 +149,6 @@ Se seu celular tem 393 x 851... O landscape dele vai ter 851 x 393.
 
 }
 ```
-
 
 <br>
 <br>

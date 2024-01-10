@@ -1,11 +1,12 @@
+<!-- title -->
 <h1 align="center">
-    Flexbox
+    <span>Flexbox</span>
     <img src="https://cdn-icons-png.flaticon.com/512/210/210561.png" alt="html icon" width="90px" align="center" >
 </h1>
 
 ## Introduction <img src="https://cdn-icons-png.flaticon.com/512/1436/1436664.png" alt="imagem" width="50px" align="center">
 
-Display flex é uma maneira usada para manipular/movimetar os elementos filhos de um container pai.
+Display flex é uma das formas para manipular/movimetar os elementos filhos de um container pai.
 
 - display:block;
 - display:inline;
@@ -35,7 +36,7 @@ A primeira coisa que devemos fazer depois de declarar um container pai como `fle
 - `column-reverse`
 
 
-:warning: Dependendo do valor que setarmos, as propriedades ficam ao contrário.
+⚠️ Dependendo do valor que setarmos, as propriedades ficam ao contrário.
 
 <hr>
 <br>
@@ -50,7 +51,7 @@ Alinha os items no eixo principal
 - `justify-content: space-between;` --> space somente entre os items.
 
 
-:warning: Atenção! Dependendo do eixo principal, as propriedades vão inverter:
+⚠️ Atenção! Dependendo do eixo principal, as propriedades vão inverter:
 
 ### flex-direction:row (eixo principal x):
 - `justify-content`--> alinhamento na horizontal
@@ -111,7 +112,7 @@ Se quisermos alinhar um elemento sozinho, usamos o `align-self`.
 
 <br>
 
-:bulb:Agora fica fácil centralizar os items na página. Basta usar o flexbox bolado!
+💡 Agora fica fácil centralizar os items na página. Basta usar o flexbox bolado!
 
 ```css
 *{

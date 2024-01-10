@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    Block and Inline Elements
+    <span>Block and Inline Elements</span>
     <img src="https://cdn-icons-png.flaticon.com/512/207/207788.png" alt="html icon" width="90px" align="center" >
 </h1>
 
@@ -22,7 +23,7 @@ Quando criamos um block-level element, esse elemento pula uma linha, dá um espa
 - `<nav>`
 - etc...
 
-:pencil2: Crie um `<p>` e uma `<div>` e coloque uma borda.
+✏️ Crie um `<p>` e uma `<div>` e coloque uma borda.
 
 
 ```html
@@ -56,7 +57,7 @@ O block-level element mais conhecido é a `<div>`. Geralmente usamos ele como co
 ## Inline Elements
 Quando criamos um elemento inline, ele permanece na mesma linha e ocupa apenas a largura necessária. O elemento mais comum é o `<span>`.
 
-:pencil2: Crie um `<p>` com uma frase e dentro coloque um `<span>` para estilizar.
+✏️ Crie um `<p>` com uma frase e dentro coloque um `<span>` para estilizar.
 
 ```html
 <body> 
@@ -77,7 +78,6 @@ span{
 <img src="https://cdn-icons-png.flaticon.com/512/2810/2810051.png" alt="imagem" width="50px" align="left">
 
 O inline element mais conhecido é o `<span>`. Geralmente usamos ele para estilizar parte de um texto.
-
 
 <br>
 <br>

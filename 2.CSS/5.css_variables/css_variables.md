@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    CSS variables
+    <span>CSS variables</span>
     <img src="https://cdn-icons-png.flaticon.com/512/4215/4215538.png" alt="html icon" width="90px" align="center" >
 </h1>
 
@@ -14,7 +15,7 @@ Para facilitar a manutenção do nosso código, é melhor usarmos variables para
     }
    ```
 
-2. Agora, é só chamar a propriedade que queremos setar a cor, e chamar a variable.
+2. Agora, é só chamar a propriedade que queremos setar a cor e chamar a variable.
 
     ```css
     .container{
@@ -23,13 +24,13 @@ Para facilitar a manutenção do nosso código, é melhor usarmos variables para
     }
     ```
 
-:bulb: Criando variables ficam muito mais fácil dar manutenção no código. Ao invés de alterar a cor em cada selector, basta alterar o valor da variable no selector `:root`.
+💡 Criando variables ficam muito mais fácil dar manutenção no código. Ao invés de alterar a cor em cada selector, basta alterar o valor da variable no selector `:root`.
 
 
-:bulb: É legal sempre definir as cores das sua page primeiro, criando as variables. Aí, é só atribuir essas varibles nas properties de cores(color,background-color,etc...).
+💡 É legal sempre definir as cores das sua page primeiro, criando as variables. Aí, é só atribuir essas varibles nas properties de cores (color,background-color,etc...).
 <br>
 
-:pencil2: Crie um `<p>` e altere a cor do texto e do background com variables.
+✏️ Crie um `<p>` e altere a cor do texto e do background com variables.
 
 ```html
 <body>

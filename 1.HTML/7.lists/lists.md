@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    Lists
+    <span>Lists</span>
     <img src="https://cdn-icons-png.flaticon.com/512/7661/7661868.png" alt="html icon" width="90px" align="center" >
 </h1>
 

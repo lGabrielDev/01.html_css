@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    id attribute
+    <span>id attribute</span>
     <img src="https://cdn-icons-png.flaticon.com/512/998/998376.png" alt="html icon" width="90px" align="center" >
 </h1>
 
@@ -19,7 +20,7 @@ Quando queremos estilizar apenas um element específico, ou quando queremos muda
 
 ## Estilizando um element pelo seu id attribute
 
-:pencil2: Crie um `<h2>` e estilize ele através do id.
+✏️ Crie um `<h2>` e estilize ele através do id.
 
 ```css
 #headerDestacado{

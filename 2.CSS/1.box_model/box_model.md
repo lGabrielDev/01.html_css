@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    Box Model (Modelo de caixa)
+    <span>Box Model (Modelo de caixa)</span>
     <img src="https://cdn-icons-png.flaticon.com/512/4327/4327005.png" alt="html icon" width="90px" align="center" >
 </h1>
 
@@ -17,7 +18,6 @@ Todo element tem um box model, contendo: <br>
 
 <hr>
 <br>
-
 
 ## border
 
@@ -45,7 +45,7 @@ Arredonda as bordas
     border-radius: 50%;
 }
 ```
-:bulb: É legal usar para arredondar uma imagem.
+💡 É legal usar para arredondar uma imagem.
 
 <hr>
 <br>
@@ -134,7 +134,6 @@ Setar a cor de um texto.
 }
 ```
 
-<br>
 
 ### background-color
 Setar a cor de fundo de um element.
@@ -144,8 +143,6 @@ Setar a cor de fundo de um element.
     background-color: #ec8572;
 }
 ```
-
-<br>
 
 ### text-align
 Alinhar o texto de forma horizontal.
@@ -163,7 +160,7 @@ Alinhar o texto de forma horizontal.
 
 <br>
 
-:bulb: Para remover a underline dos links, use o `text-decoration:none;`.
+💡 Para remover a underline dos links, use o `text-decoration:none;`.
 
 <br>
 <br>

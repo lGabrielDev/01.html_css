@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    Fonts
+    <span>Fonts</span>
     <img src="https://cdn-icons-png.flaticon.com/512/8048/8048843.png" alt="html icon" width="90px" align="center" >
 </h1>
 
@@ -17,7 +18,7 @@ Todas as fontes derivam de 3 fontes genéricas:
 
 Para mudar a fonte de um texto, vamos usar a property `font-family.`
 
-:warning: Além da fonte que você quer utilizar, coloque também uma font genérica (serif,sans-serif, monospace). Assim, se por algum motivo sua fonte não funcionar, usamos as genéricas.
+⚠️ Além da fonte que você quer utilizar, coloque também uma font genérica (serif,sans-serif, monospace). Assim, se por algum motivo sua fonte não funcionar, usamos as genéricas.
 
 ```css
 .p1 {

@@ -1,8 +1,10 @@
+<!-- title -->
 <h1 align="center">
-    Tables
+    <span>Tables</span>
     <img src="https://cdn-icons-png.flaticon.com/512/2824/2824181.png" alt="html icon" width="90px" align="center" >
 </h1>
-Para criar uma table no html é bem simples. Primeiro informamos que vamos criar uma table, e depois saimos setando linha por linha
+
+Para criar uma table no html é bem simples. Primeiro informamos que vamos criar uma table, e depois saimos setando linha por linha.
 
 - `<table>` --> Container da table
 - `<tr>` --> table rows
@@ -48,7 +50,7 @@ th{padding: 3px 16px;}
 
 td{padding: 6px 4px;}
 ```
-:bulb: Para juntar as bordas, use o  `border-collapse: collapse;`
+💡 Para juntar as bordas, use o  `border-collapse: collapse;`
 
 
 <br>

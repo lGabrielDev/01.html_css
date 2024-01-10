@@ -16,8 +16,6 @@ Imagina um elemento h2 com um `background-color red`; Ao dar hover nesse element
 </div>
 
 
-
-
 </div>
 
 <br>

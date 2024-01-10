@@ -1,5 +1,6 @@
+<!-- title -->
 <h1 align="center">
-    CSS
+    <span>CSS</span>
     <img src="https://cdn-icons-png.flaticon.com/512/3308/3308160.png" alt="html icon" width="90px" align="center" >
 </h1>
 
@@ -41,7 +42,6 @@ p{
 ## Selectors
 Como vimos antes, os seletores são os elementos que queremos estilizar. Podemos estilizar os seletores de várias formas:
 
-<br>
 
 ### Estilizando pelo element selector
 Quando queremos estilizar todos os elementos.
@@ -53,7 +53,6 @@ h2{text-align: center;}
 /* Estamos estilizando todos os h2 */
 ```
 <br>
-<br>
 
 ### Estilizando multiple elements
 ```css
@@ -62,7 +61,7 @@ h2, div, p{
 }
 /* Estamos estilizando todos os <h2>, todas as <div> e todos os <p> */
 ```
-<br>
+
 <br>
 
 ### Estilizando pelo id selector
@@ -70,10 +69,10 @@ Quando queremos estilizar apenas 1 elemento específico, estilizamos pelo `id`.
 ```css
 #p_importante{text-align: center;}
 ```
-:bulb: Usamos os character `#` para id.
+💡 Usamos os character `#` para id.
 
 <br>
-<br>
+
 
 ### Estilizando pela class selector
 ```css
@@ -85,7 +84,7 @@ Quando queremos estilizar apenas 1 elemento específico, estilizamos pelo `id`.
 }
 /* todos os elements que tiverem a class "tal" vão ser estilizados */
 ```
-:bulb: Usamos os character `.` para class.
+💡 Usamos o character `.` para class.
 
 <br>
 
