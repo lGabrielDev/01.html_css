@@ -109,6 +109,49 @@ div.p_destacados{
 /* Vamos estilizar todas as <div> que tiverem a class tal */
 ```
 
+<br>
+
+### Estilizando os filhos diretos de um elemento:
+
+```html
+<div class="container">
+    <p>item 1</p>
+    <p>item 2</p>
+    <p>item 3</p>
+    <ol>
+        <p>item 4</p> <!-- Nao é filho direto, nao vai ser alterado -->
+    </ol>
+</div>
+```
+
+```css
+div > p{ /* Queremos estilizar todos os 'p' que forem filhos diretos de div */
+    background-color: tomato;
+}
+```
+
+<br>
+
+
+### Estilizando todos os elementos dentro de um elemento:
+
+```html
+<div class="container">
+    <p>item 1</p>
+    <p>item 2</p>
+    <p>item 3</p>
+    <ol>
+        <p>item 4</p> <!-- Ele também vai ser alterado, porque está dentro da div. Por mais que nao seja filho direto, ele ainda está dentro da div -->
+    </ol>
+</div>
+```
+
+```css
+div p{ /* Queremos estilizar todos os 'p' que estiverem dentro de uma 'div' */
+    background-color: tomato;
+}
+```
+
 <hr>
 <br>
 
